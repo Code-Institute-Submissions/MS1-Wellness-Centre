@@ -1,45 +1,48 @@
-<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
+# Milestone Project 1
 
-Welcome USER_NAME,
+To consolidate and present knowledge and understanding of modules learned by developing and implementing a static front-end web application using languages HTML5 and CSS3. 
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
+---
 
-## Gitpod Reminders
+# Central Wellness: The Wellbeing Hub. (LOGO)
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+## Table of contents
+ * Overview.
+ * User Stories.
+ * UX User Experience.
+ * Features
+ * Technologies Used.
+ * Testing
+ * Barriers & Solutions
+ * Deployment
+ * Resources
+ * Credits
+ * Acknowledgements
 
-`python3 -m http.server`
+ ---
 
-A blue button should appear to click: *Make Public*,
+## Overview.
+During these uncertain community hubs are needed more than ever with most still waiting to be reopened due to the COVID19 outbreak.  
+With health services only able to see a select number of patients per day and social hubs remaining closed the populations physical 
+and mental health is being put at risk.
 
-Another blue button should appear to click: *Open Browser*.
+A wellness centre aims to provide positive mental and physical hygiene to the community by not only providing a gym with fitness 
+classes but also by having experienced practitioners on site to help with the other needs such as physiotherapy, acupuncture, reflexology 
+etc.  The aim of Central Wellness is to provide a family style experience to the users with a pay as you go or membership plan. 
+Attracting and maintaining members and users is vital to the company and the website will provide the information the users are looking for 
+such class timetables and gym schedules, contact details, pictures showcasing the centre etc.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+## User Stories
+“As a loyal member of the Centres website I want……”
+* “the contact information to be at hand for when I need to get in touch”
+* “to be able to network with the centre and it users by social media platforms”
+* "to visit the site via my mobile phone”
+* "Covid updates to keep me safe"
 
-A blue button should appear to click: *Make Public*,
+“As a new visitor to the Centres website I want”
+* “to see what the gym looks like and its facilities”
+* “I want to be able to sign up for a membership online and on my phone”
+* “I need to know contact details, opening times, class timetables and prices”
+* “I need to know COVID restrictions and what’s being put in place to keep me safe”
 
-Another blue button should appear to click: *Open Browser*.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
-
-## Updates Since The Instructional Video
-
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
-
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
---------
-
-Happy coding!
