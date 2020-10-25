@@ -1,6 +1,6 @@
 # Milestone Project 1
 
-To consolidate and present knowledge and understanding of modules learned by developing and implementing a static front-end web application using languages HTML5 and CSS3. 
+To present knowledge and understanding of modules learned by developing and implementing a static front-end web application using languages HTML5 and CSS3. 
 
 ---
 
