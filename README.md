@@ -5,7 +5,7 @@ languages HTML5 and CSS3.
 
 ---
 
-# Central Wellness: The Wellbeing Hub. (LOGO)
+# Central Wellness: The Wellbeing Hub. <img src="assets/images/lotuslogo.png" width=250>
 
 ## Table of contents.
  * Overview.
@@ -34,16 +34,18 @@ reflexology.
 ---
 
 ## User Stories
-“As a loyal member of the centres website I....”
-“need the contact information to be at hand for when I need to get in touch”
-“want to feel and be a part of the centres community via social media platforms”
-"want to visit the site and book classes using my mobile phone for when I'm on the go”
+<strong><i>“As a loyal member of the centres website I....”</i></strong>
+
+“need the contact information to be at hand for when I need to get in touch”\
+“want to feel and be a part of the centres community via social media platforms”\
+"want to visit the site and book classes using my mobile phone for when I'm on the go”\
 "need Covid updates to keep me safe"
 
-“As a new visitor to the centres website I....”
-“need to see what the gym looks like and its facilities so I can make an informed decsion on whether to visit”
-“need to know opening times and class timetables so I can work it into my busy lifestyle”
-"want to visit the site and book a using my mobile phone for when I'm on the go”
+<strong><i>“As a new visitor to the centres website I....”</i></strong>
+
+“need to see what the gym looks like and its facilities so I can make an informed decsion on whether to visit”\
+“need to know opening times and class timetables so I can work it into my busy lifestyle”\
+"want to visit the site and book a using my mobile phone for when I'm on the go”\
 “need to know COVID restrictions and what’s being put in place to keep me safe”
 
 ---
@@ -91,9 +93,13 @@ Bootstrap is utilised to create the above and all features are kept within own a
 * The contact form will be presented on its own page as to not visually confuse the user.  It will have a drop box format for the user to choose what their reason is for contacting the centre with a message box for them to elaborate their reason in.
 * The contact form will provide the centres address in the footer section along with the social media links.
 
-Skeleton:
+## The Skeleton Plane:
 
-Wireframes
+<img src="assets/wireframes/Wireframes-pdf-1home.png" >
+<img src="assets/wireframes/Wireframes-pdf-2about.png" >
+<img src="assets/wireframes/Wireframes-pdf-3classes.png" >
+<img src="assets/wireframes/Wireframes-pdf-4contact.png" >
+
 Features – Existing and to be implemented
 
 Technologies Used – html5, css3, bootstrap, font awesome, gitpod / hub etc.
