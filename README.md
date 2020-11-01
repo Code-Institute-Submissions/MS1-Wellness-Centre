@@ -5,12 +5,14 @@ languages HTML5 and CSS3.
 
 ---
 
-# <img src="assets/images/lotuslogo.png" width=250> Central Wellness: The Wellbeing Hub.
+## <img src="assets/images/lotuslogo.png" width=250> Central Wellness: The Wellbeing Hub.
 
-## Table of contents.
+---
+
+### <strong>Table of contents.</strong>
  * Overview.
  * User Stories.
- * UX User Experience.
+ * User Experience. (UX)
  * Features
  * Technologies Used.
  * Testing
@@ -22,7 +24,7 @@ languages HTML5 and CSS3.
 
 ---
 
-## Overview.
+### <strong>Overview.</strong>
 During these uncertain community hubs are needed more than ever with most still waiting to be reopened due to the COVID19 outbreak.  
 With health services only able to see a select number of patients per day and social hubs remaining closed the populations physical 
 and mental health is being put at risk.
@@ -33,7 +35,7 @@ reflexology.
 
 ---
 
-## User Stories
+### <strong>User Stories</strong>
 <strong><i>“As a loyal member of the centres website I....”</i></strong>
 
 “need the contact information to be at hand for when I need to get in touch”\
@@ -50,14 +52,15 @@ reflexology.
 
 ---
 
-## User Experience (UX)
+### <strong>User Experience (UX)</strong>
 
 ---
 
-## The Strategy Plane
+### <strong>The Strategy Plane</strong>
 
-### <ins><strong>Main goal of the site is to attract and retain a solid member base.</strong></ins>
-#### <strong>How can this be achieved?</strong>
+<ins>Main goal of the site is to attract and retain a solid member base.</ins>\
+How can this be achieved?
+
 <strong><i>Target Audience</i></strong> - People who are isolated, people who are keen to get and keep fit / heal, 
 lose weight, maintain overall wellbeing and generally look after oneself.
 * Class timetable with prices.
@@ -73,12 +76,14 @@ The centres address will be provided on the contact page.
 therapists at work, therapy rooms, social gathering following COVID restrictions. 
 Mobile- first approach to site design.
 
-<strong><i>Short, informative and concise text.</i></strong> – Introduction and Welcome Text, About Text including optional therapies and testimonials. 
+<strong><i>Short, informative and concise text.</i></strong>\
+Introduction and Welcome Text, About Text including optional therapies and testimonials. 
 
 <strong><i>Testimonials.</i></strong>
 
-## The Scope Plane
-<strong><i>Features and Functions:</i></strong>
+### <strong>The Scope Plane</strong>
+<strong><i>Features and Functions</i></strong>
+
 * Fully responsive mobile first website – accessible from mobile devices, tablets and computers.
 * Mobile device drop down nav bar.  Other devices nav bar text in the header section.
 * Contact form – Drop down list on what the query is regarding, placeholder text, user query text box and submit button.
@@ -86,32 +91,101 @@ Mobile- first approach to site design.
 
 Bootstrap is utilised to create the above and all features are kept within own abilities at this stage of the course.
 
-## The Structure Plane
+### <strong>The Structure Plane</strong>
 * Nav bar is located in the header section of each page.
 * Social media links are located in the footer section of each page.
 * All text will be short and concise and located next to images to keep an even visual balance to the user to maintain engagement with the site.
 * The contact form will be presented on its own page as to not visually confuse the user.  It will have a drop box format for the user to choose what their reason is for contacting the centre with a message box for them to elaborate their reason in.
-* The contact form will provide the centres address in the footer section along with the social media links.
+* The contact page will also have the centre's address and phone number on located below the contact form.
 
-## The Skeleton Plane:
+### <strong>The Skeleton Plane</strong>
 
 <img src="assets/wireframes/Wireframes-pdf-1home.png" >
 <img src="assets/wireframes/Wireframes-pdf-2about.png" >
 <img src="assets/wireframes/Wireframes-pdf-3classes.png" >
 <img src="assets/wireframes/Wireframes-pdf-4contact.png" >
 
-Features – Existing and to be implemented
+The site has four pages; Home, About, Classes and Contact.\
+Each page has a navigation bar and footer.  The navigation bar links a page heading to the page.
+The footer bar contains © and social media links.
 
-Technologies Used – html5, css3, bootstrap, font awesome, gitpod / hub etc.
+### <strong>The Surface Plane</strong>
 
-Testing.
+* <strong><i>Colour Scheme</i></strong>
 
-Barriers and how overcame.
+The colours chosen are pastels constisting of two shades of orange (#FFA351FF, #FFBE7BFF)
+and a yellow (#EED971FF) providing a calming and fresh feel to the website.
 
-Deployment – deployed version, deployment version.
+* <strong><i>Fonts</i></strong>
 
-Credits – sourced photos, CI template, code snippets.
+* <strong><i>Imagery</i></strong>
 
-Acknowledgements / reference links – Mentor, CUFD Lead, Slack Community etc.
+
+---
+
+### <strong>Features</strong>
+
+* <strong><i>Existing features that match current skill base.</i></strong>
+
+The header/navbar and footer will be featured across all pages. The header on each page will be fixed.  The footer will not be fixed.  
+The pages will scroll.\
+The company logo is displayed in the corner of every page and when pressed will redirect the user back to the homepage.
+On larger browsers the nav bar will be displayed on the screen.  On mobile devices it will be shown as a hamburger icon that has a toggle function.
+
+* <strong><i>Features to be implemented with more advance skill base.</i></strong>
+
+Submit button to be functional 
+A booking system on classes page
+For social media icon to be linked to the actual platforms.
+Interactive gallery on the home page.
+Modal pop up for COVID alert and procedures.
+
+---
+
+### <strong>Technologies Used</strong>
+
+* HTML5 
+* CSS3
+* Bootstrap
+* Fontawsome
+* Google Fonts 
+* Gitpod 
+* Github 
+* Git 
+
+---
+
+### <strong>Testing</strong>
+
+---
+
+### <strong>Barriers and how overcame</strong>
+
+---
+
+### <strong>Deployment</strong> – deployed version, deployment version
+
+each step of how using github/gitpod 
+
+---
+
+### <strong>Resources</strong>
+
+[Code Institute's](https://courses.codeinstitute.net/login) module content; All key fundamental elements which underpin the developing process as a whole.\
+[Balsamiq](https://balsamiq.com/) was used to create the wireframes\
+[Youtube](https://youtube.com) was used as a learning aid\
+Github [markdown cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) was used a point of reference when using Markdown language.\
+[PDF to PNG](https://pdf2png.com/) Conversion.
+
+---
+
+### <strong>Credits</strong> – sourced photos, CI template, code snippets.
+
+The lotus flower logo image was taken from [clipart-library](http://clipart-library.com/clipart/500336.htm) a free picture art gallery.\
+[Code Institute's] gitpod template designed specifically with the extentions that aree needed to create the project.
+
+---
+
+### <strong>Acknowledgements</strong> / reference links – Mentor, CUFD Lead, Slack Community etc.
 
 
