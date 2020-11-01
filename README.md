@@ -5,7 +5,7 @@ languages HTML5 and CSS3.
 
 ---
 
-# Central Wellness: The Wellbeing Hub. <img src="assets/images/lotuslogo.png" width=250>
+# <img src="assets/images/lotuslogo.png" width=250> Central Wellness: The Wellbeing Hub.
 
 ## Table of contents.
  * Overview.
