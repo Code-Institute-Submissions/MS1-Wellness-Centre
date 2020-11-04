@@ -9,12 +9,12 @@ languages HTML5 and CSS3.
 
 ---
 
-### <strong>Table of contents.</strong>
- * Overview.
- * User Stories.
+### **Table of contents**
+ * Overview
+ * User Stories
  * User Experience. (UX)
  * Features
- * Technologies Used.
+ * Technologies Used
  * Testing
  * Barriers & Solutions
  * Deployment
@@ -24,7 +24,7 @@ languages HTML5 and CSS3.
 
 ---
 
-### <strong>Overview.</strong>
+### **Overview**
 During these uncertain community hubs are needed more than ever with most still waiting to be reopened due to the COVID19 outbreak.  
 With health services only able to see a select number of patients per day and social hubs remaining closed the populations physical 
 and mental health is being put at risk.
@@ -35,15 +35,15 @@ reflexology.
 
 ---
 
-### <strong>User Stories</strong>
-<strong><i>“As a loyal member of the centres website I....”</i></strong>
+### **User Stories**
+**_“As a loyal member of the centres website I....”_**
 
 “need the contact information to be at hand for when I need to get in touch”\
 “want to feel and be a part of the centres community via social media platforms”\
 "want to visit the site and book classes using my mobile phone for when I'm on the go”\
 "need Covid updates to keep me safe"
 
-<strong><i>“As a new visitor to the centres website I....”</i></strong>
+**_“As a new visitor to the centres website I....”_**
 
 “need to see what the gym looks like and its facilities so I can make an informed decsion on whether to visit”\
 “need to know opening times and class timetables so I can work it into my busy lifestyle”\
@@ -52,16 +52,17 @@ reflexology.
 
 ---
 
-### <strong>User Experience (UX)</strong>
+### **User Experience. (UX)**
 
 ---
 
-### <strong>The Strategy Plane</strong>
+### **The Strategy Plane**
 
-<ins>Main goal of the site is to attract and retain a solid member base.</ins>\
-How can this be achieved?
+<ins>Main goal of the site is to attract and retain a solid member base.</ins>
 
-<strong><i>Target Audience</i></strong> - People who are isolated, people who are keen to get and keep fit / heal, 
+**How can this be achieved?**
+
+**_Target Audience_** - People who are isolated, people who are keen to get and keep fit / heal, 
 lose weight, maintain overall wellbeing and generally look after oneself.
 * Class timetable with prices.
 * Available therapies.
@@ -69,20 +70,20 @@ lose weight, maintain overall wellbeing and generally look after oneself.
 The centres address will be provided on the contact page.
 * What extra procedures are being put in place for COVID.
 
-<strong><i>Creating an online community:</i></strong>
+**_Creating an online community:_**
 * Links to social media platforms
 * Raising awareness of current health issues and how these can be overcome - selfcare and supportive environment.
 * “What are you looking for?” Picture gallery – Reassuring Images: Smiling people at the gym and in classes, 
 therapists at work, therapy rooms, social gathering following COVID restrictions. 
 Mobile- first approach to site design.
 
-<strong><i>Short, informative and concise text.</i></strong>\
+**_Short, informative and concise text._**\
 Introduction and Welcome Text, About Text including optional therapies and testimonials. 
 
-<strong><i>Testimonials.</i></strong>
+**_Testimonials._**
 
-### <strong>The Scope Plane</strong>
-<strong><i>Features and Functions</i></strong>
+### **The Scope Plane**
+**_Features and Functions_**
 
 * Fully responsive mobile first website – accessible from mobile devices, tablets and computers.
 * Mobile device drop down nav bar.  Other devices nav bar text in the header section.
@@ -91,14 +92,14 @@ Introduction and Welcome Text, About Text including optional therapies and testi
 
 Bootstrap is utilised to create the above and all features are kept within own abilities at this stage of the course.
 
-### <strong>The Structure Plane</strong>
+### **The Structure Plane**
 * Nav bar is located in the header section of each page.
 * Social media links are located in the footer section of each page.
 * All text will be short and concise and located next to images to keep an even visual balance to the user to maintain engagement with the site.
 * The contact form will be presented on its own page as to not visually confuse the user.  It will have a drop box format for the user to choose what their reason is for contacting the centre with a message box for them to elaborate their reason in.
 * The contact page will also have the centre's address and phone number on located below the contact form.
 
-### <strong>The Skeleton Plane</strong>
+### **The Skeleton Plane**
 
 <img src="assets/wireframes/Wireframes-pdf-1home.png" >
 <img src="assets/wireframes/Wireframes-pdf-2about.png" >
@@ -109,30 +110,30 @@ The site has four pages; Home, About, Classes and Contact.\
 Each page has a navigation bar and footer.  The navigation bar links a page heading to the page.
 The footer bar contains © and social media links.
 
-### <strong>The Surface Plane</strong>
+### **The Surface Plane**
 
-* <strong><i>Colour Scheme</i></strong>
+* **_Colour Scheme_**
 
 The colours chosen are pastels constisting of two shades of orange (#FFA351FF, #FFBE7BFF)
 and a yellow (#EED971FF) providing a calming and fresh feel to the website.
 
-* <strong><i>Fonts</i></strong>
+* **_Font_**
 
-* <strong><i>Imagery</i></strong>
+* **_Imagery_**
 
 
 ---
 
-### <strong>Features</strong>
+### **Features**
 
-* <strong><i>Existing features that match current skill base.</i></strong>
+* **_Existing features that match current skill base._**
 
 The header/navbar and footer will be featured across all pages. The header on each page will be fixed.  The footer will not be fixed.  
 The pages will scroll.\
 The company logo is displayed in the corner of every page and when pressed will redirect the user back to the homepage.
 On larger browsers the nav bar will be displayed on the screen.  On mobile devices it will be shown as a hamburger icon that has a toggle function.
 
-* <strong><i>Features to be implemented with more advance skill base.</i></strong>
+* **_Features to be implemented with more advance skill base._**
 
 Submit button to be functional 
 A booking system on classes page
@@ -142,7 +143,7 @@ Modal pop up for COVID alert and procedures.
 
 ---
 
-### <strong>Technologies Used</strong>
+### **Technologies Used**
 
 * HTML5 
 * CSS3
@@ -155,21 +156,21 @@ Modal pop up for COVID alert and procedures.
 
 ---
 
-### <strong>Testing</strong>
+### **Testing**
 
 ---
 
-### <strong>Barriers and how overcame</strong>
+### **Barriers and how overcame**
 
 ---
 
-### <strong>Deployment</strong> – deployed version, deployment version
+### **Deployment** – deployed version, deployment version
 
 each step of how using github/gitpod 
 
 ---
 
-### <strong>Resources</strong>
+### **Resources**
 
 [Code Institute's](https://courses.codeinstitute.net/login) module content; All key fundamental elements which underpin the developing process as a whole.\
 [Balsamiq](https://balsamiq.com/) was used to create the wireframes\
@@ -179,13 +180,13 @@ Github [markdown cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdo
 
 ---
 
-### <strong>Credits</strong> – sourced photos, CI template, code snippets.
+### **Credits** – sourced photos, CI template, code snippets.
 
 The lotus flower logo image was taken from [clipart-library](http://clipart-library.com/clipart/500336.htm) a free picture art gallery.\
 [Code Institute's] gitpod template designed specifically with the extentions that aree needed to create the project.
 
 ---
 
-### <strong>Acknowledgements</strong> / reference links – Mentor, CUFD Lead, Slack Community etc.
+### **Acknowledgements** / reference links – Mentor, CUFD Lead, Slack Community etc.
 
 

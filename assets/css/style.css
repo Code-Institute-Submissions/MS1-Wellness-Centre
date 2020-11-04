@@ -1,0 +1,35 @@
+
+ * {
+    margin: 0;
+} 
+
+/** Navigation **/
+
+.navbar-light {
+    background-color: #EED971FF;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(255,148,71);
+    font-family: 'Rubik', sans-serif;
+}
+
+.navbar-nav {
+    font-family: 'Rubik', sans-serif;
+    font-size: 130%;
+}
+
+.navbar-nav .nav-item {
+    padding-left: 0.5em;
+}
+
+a:hover {
+    color: white;
+}
+
+a:visited {
+    color:rgb(0,0,0)
+}
+
+
+
