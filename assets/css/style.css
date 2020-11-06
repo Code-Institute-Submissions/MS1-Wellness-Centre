@@ -9,7 +9,7 @@
     background-color: #EED971FF;
 }
 
-.navbar-light .navbar-nav .nav-link {
+ .navbar-light .navbar-nav .nav-link {
     color: rgb(255,148,71);
     font-family: 'Rubik', sans-serif;
 }
@@ -23,13 +23,31 @@
     padding-left: 0.5em;
 }
 
-a:hover {
-    color: white;
+.active {
+     color:rgb(0,0,0,0);
+     text-decoration: underline;
 }
 
-a:visited {
-    color:rgb(0,0,0)
+ .nav-item a:link {
+    color: rgb(255,148,71);
+    text-decoration: none;
 }
+
+.nav-item a:visited {
+    color:rgb(0,0,0,0);
+    
+}
+
+.nav-item a:hover {
+    text-decoration: underline solid;
+    color:rgb(0,0,0,0);
+}
+
+.nav-item a:active {
+    text-decoration: underline;
+}
+
+
 
 
 
