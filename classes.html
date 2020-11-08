@@ -1,47 +1,187 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+    <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css"
-    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css"/>
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
     <title>Central Wellness</title>
-  </head>
-  <body>
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    </head>
+    <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" href="index.html" id="logo"> 
         <img src="assets/images/lotuslogo.png" alt="Lotus Flower Logo" width="150" height="100"></a>
         <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
         </button>
 
         <div class="menu collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="index.html">Home</a></li>
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
             <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
             <li class="nav-item"><a class="nav-link" href="classes.html">Classes</a></li>
             <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
-          </ul>
+        </ul>
         </div>
-      </nav>
+    </nav>
 
-    <section></section>
+    <section>
+        <h3>Class Timetable & Prices</h3>
+        <table class="table table-hover table-responsive-sm">
+            <thead>
+                <tr>
+                <th scope="col"></th>
+                <th scope="col">Monday</th>
+                <th scope="col">Tuesday</th>
+                <th scope="col">Wednesday</th>
+                <th scope="col">Thursday</th>
+                <th scope="col">Friday</th>
+                <th scope="col">Saturday</th>
+                <th scope="col">Sunday</th>
+                </tr>
+            </thead>
+
+            <tbody>
+            <tr>
+            <th scope="row">08:00</th>
+            <td>Circuits 1hr £4</td>
+            <td>HIIT 30mins £3</td>
+            <td>Pilates 1hr £4</td>
+            <td>HIIT 30mins £3</td>
+            <td></td>
+            <td>HIIT 30mins £3</td>
+            <td></td>
+            </tr>
+
+            <tr>
+            <th scope="row">09:30</th>
+            <td>Tai Chi 1hr £4</td>
+            <td>Yoga 1hr £4</td>
+            <td>Pilates 1hr £4</td>
+            <td></td>
+            <td>Yoga 1hr £4</td>
+            <td>Pilates 1hr £4</td>
+            <td>Yoga 1hr £4</td>
+            </tr>
+            <tr>
+            <th scope="row">15:30</th>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>Tai Chi 1hr £4</td>
+            <td></td>
+            </tr>
+            <tr>
+            <th scope="row">17:00</th>
+            <td>HIIT 30mins £3</td>
+            <td>Diet Club 1hr £4</td>
+            <td>Circuits 1hr £4</td>
+            <td>Kettle Bells 45mins £3</td>
+            <td>Circuits 1hr £4</td>
+            <td></td>
+            <td></td>
+            </tr>
+             <tr>
+            <th scope="row">19:00</th>
+            <td>Bootcamp 45mins £3</td>
+            <td>Bootcamp 45mins £3</td>
+            <td>Bootcamp 45mins £3</td>
+            <td>Bootcamp 45mins £3</td>
+            <td>Bootcamp 45mins £3</td>
+            <td></td>
+            <td></td>
+            </tr>
+            </tbody>
+            <!--<th scope="row">Saturday</th>
+            <td>HIIT 30mins £3</td>
+            <td>Pilates 1hr £4</td>
+            <td>Tai Chi 1hr £4</td>
+            <td></td>
+            <td></td>
+            </tr>
+             <tr>
+            <th scope="row">Sunday</th>
+            <td></td>
+            <td>Yoga 1hr £4</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            </tr>
+        </tbody>-->
+
+        <!--<tbody>
+            <tr>
+            <th scope="row">Monday</th>
+            <td>Circuits 1hr £4</td>
+            <td>Tai Chi 1hr £4</td>
+            <td></td>
+            <td>HIIT 30mins £3</td>
+            <td>Bootcamp 45mins £3</td>
+            </tr>
+
+            <tr>
+            <th scope="row">Tuesday</th>
+            <td>HIIT 30mins £3</td>
+            <td>Yoga 1hr £4</td>
+            <td></td>
+            <td>Diet Club 45mins £3</td>
+            <td>Bootcamp 45mins £3</td>
+            </tr>
+            <tr>
+            <th scope="row">Wednesday</th>
+            <td>Pilates 1hr £4</td>
+            <td></td>
+            <td></td>
+            <td>Circuits 1hr £4</td>
+            <td>Bootcamp 45mins £3</td>
+            </tr>
+            <tr>
+            <th scope="row">Thursday</th>
+            <td>HIIT 30mins £3</td>
+            <td></td>
+            <td></td>
+            <td>Kettle Bells 45mins £3</td>
+            <td>Bootcamp 45mins £3</td>
+            </tr>
+             <tr>
+            <th scope="row">Friday</th>
+            <td></td>
+            <td>Yoga 1hr £4</td>
+            <td></td>
+            <td>Circuits 1hr £4</td>
+            <td>Bootcamp 45mins £3</td>
+            </tr>
+             <tr>
+            <th scope="row">Saturday</th>
+            <td>HIIT 30mins £3</td>
+            <td>Pilates 1hr £4</td>
+            <td>Tai Chi 1hr £4</td>
+            <td></td>
+            <td></td>
+            </tr>
+             <tr>
+            <th scope="row">Sunday</th>
+            <td></td>
+            <td>Yoga 1hr £4</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            </tr>
+        </tbody>-->
+        
+        </table>
+    </section>
 
     <footer>
         <ul class="social-networks">
@@ -55,5 +195,5 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.min.js"></script>
-  </body>
+    </body>
 </html>
