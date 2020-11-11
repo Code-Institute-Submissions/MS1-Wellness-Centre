@@ -24,6 +24,8 @@ body {
     flex-direction: column;
    
 }
+
+
 /** navbar **/
 
 .navbar-custom {
@@ -50,9 +52,11 @@ body {
 
 /**---------------welcome---------------**/
 
+
+
 @media screen and (max-width: 1366px) {
 #welcome {
-    text-align: center
+    text-align: center;
 }
 
 #welcome h1 {
@@ -82,19 +86,9 @@ body {
     font-size: 20px;
 }
 
-.classes {
-    padding-bottom: 315px;
 }
 
-.contact {
-    padding-bottom: 290px;
-}
-}
-
-footer {
-    position: absolute;
-    bottom: auto;
-    width: 100%;
+#footer {
     background-color:rgb(255, 167, 85);
 }
 
@@ -103,7 +97,32 @@ footer {
     list-style-type: none;
 }
 
+/**---------------classes---------------**/
 
+.classes, .contact {
+    flex: 1;
+}
+.classes h3 {
+    margin-top: 40px;
+    text-align: center;
+}
+.table {
+    margin-top: 40px;
+    margin-bottom: 40px; 
+}
+
+#footer h6 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/**#footer {
+    position: sticky;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+   
+}
 /**
 .navbar-custom .nav-item.active .nav-link {
      color: #000000;
