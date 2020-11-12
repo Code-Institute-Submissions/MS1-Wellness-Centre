@@ -21,6 +21,7 @@ body {
 
 .navbar-custom {
     background-color:rgb(231, 229, 229);
+    letter-spacing: 1.5px; 
 }
     
 
@@ -41,6 +42,11 @@ body {
     box-shadow: none;
 }
 
+li .nav-link {
+    margin-right: 20px;
+}
+
+
 /**--------------- footer ---------------**/
 
 #footer {
@@ -58,6 +64,30 @@ body {
 
 /**--------------- welcome  ---------------**/
 
+.welcome {
+    text-align: center;
+    padding: 20px;
+}
+
+.welcome h1, h3 {
+    margin-top: 20px;
+}
+
+#gallery h3 {
+    color: rgb(255, 167, 85);
+    margin-bottom: 20px;
+}
+
+.carousel-item img {
+    max-width: 60%;
+    height: auto;
+    text-align: center;
+    display: block;
+    margin: auto;
+    border-radius: 20px;
+}
+
+
 /**--------------- about    ---------------**/
 
 /**--------------- classes  ---------------**/
@@ -72,6 +102,12 @@ body {
 }
 
 /**--------------- contact  ---------------**/
+
+form {
+    display: block;
+    margin: auto;
+}
+
 
 
 
