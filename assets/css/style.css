@@ -15,6 +15,7 @@ body {
     display: flex;
     min-height: 100vh;
     flex-direction: column;
+    background-color: rgb(255, 255, 255)
 }
 
 /**--------------- navbar ---------------**/
@@ -46,35 +47,76 @@ li .nav-link {
     margin-right: 20px;
 }
 
+#logo {
+    opacity: 0.7;
+}
+
 
 /**--------------- footer ---------------**/
 
-#footer {
+
+#footer  {
     background-color:rgb(255, 167, 85);
+    opacity: 0.7;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    letter-spacing: 1.5px;
+    font-size: 15px;
 }
 
-.social-networks {
-    text-align: right;
-    list-style-type: none;
+.links, .list-inline-item a {
+    color: rgba(0, 0, 0, .5);
+    font-size: 25px;
+    float: right;
+    word-spacing: 30px;
+    justify-content: center
 }
+
+.links a:hover {
+    color: rgb(231, 229, 229);
+}
+
+.copyright {
+    float: left;
+    
+}
+
+.links, .copyright {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
 
 .welcome, .about, .classes, .contact {
     flex: 1;
+}
+
+/**--------------- page titles  ---------------**/
+
+.welcome h1, .about h3, .classes h3, .contact h3 {
+    background-color:  rgb(255, 167, 85);
+    padding: 20px;
+    opacity: 0.7;
+    text-align: center;
+    margin-bottom: 0;
 }
 
 /**--------------- welcome  ---------------**/
 
 .welcome {
     text-align: center;
-    padding: 20px;
 }
 
-.welcome h1, h3 {
+.welcome h3, p {
     margin-top: 20px;
+    letter-spacing: 1.55px;
+    line-height: 30px;
 }
 
 #gallery h3 {
-    color: rgb(255, 167, 85);
+    color: rgb(255, 167, 85,.8);
     margin-bottom: 20px;
 }
 
@@ -85,20 +127,26 @@ li .nav-link {
     display: block;
     margin: auto;
     border-radius: 20px;
+    margin-bottom: 20px;
 }
 
+/**---------------  about  ---------------**/
 
-/**--------------- about    ---------------**/
-
-/**--------------- classes  ---------------**/
-
-.classes h3, .contact h3 {
-    margin-top: 40px;
-    text-align: center;
+.about {
+    text-align: center; 
 }
-.table {
-    margin-top: 40px;
-    margin-bottom: 40px; 
+
+/**---------------  classes  ---------------**/
+
+
+td {
+    color: rgba(0, 0, 0, .5);
+    vertical-align: middle;
+}
+
+th {
+    color: rgb(255, 167, 85);
+     vertical-align: middle;
 }
 
 /**--------------- contact  ---------------**/
@@ -106,8 +154,37 @@ li .nav-link {
 form {
     display: block;
     margin: auto;
+    width: auto;
+    color: rgba(0, 0, 0, .5);
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
+#reason, .btn {
+    color: rgba(0, 0, 0, .5);
+}
+
+.button {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.btn:hover, .btn:active {
+    color: rgb(255, 167, 85);
+}
+
+.row {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.address p i {
+    float:left;
+}
+
+.number p i {
+    float: right;
+}
 
 
 
