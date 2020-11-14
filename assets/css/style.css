@@ -95,6 +95,7 @@ li .nav-link {
     margin-top: 20px;
     margin-bottom: 20px;
     margin-right: 20px;
+    display: inline;
     
 }
 
@@ -158,9 +159,15 @@ h1 span {
 
 /**---------------  about  ---------------**/
 
-.about-us h4, .about-us h5 {
+.about-us h4, .about-us h5, .about-us h6 {
     margin-top: 20px;
+}
+
+.therapies li {
+    list-style-type: circle;
+   
     text-align: center;
+    
 }
 
 /**---------------  classes  ---------------**/
