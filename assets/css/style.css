@@ -16,6 +16,7 @@ body {
     min-height: 100vh;
     flex-direction: column;
     background-color: rgb(255, 255, 255)
+    
 }
 
 /**--------------- navbar ---------------**/
@@ -84,7 +85,7 @@ li .nav-link {
 
 .links a:hover {
     color: rgb(231, 229, 229);
-     text-shadow:1px 1px 5px rgba(0,0,0,.5);
+    text-shadow:1px 1px 5px rgba(0,0,0,.5);
 }
 
 .copyright {
@@ -92,11 +93,7 @@ li .nav-link {
 }
 
 .links, .copyright {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-right: 20px;
-    display: inline;
-    
+    margin: 20px 20px 20px 0;  
 }
 
 
@@ -107,7 +104,7 @@ li .nav-link {
 /**--------------- page titles  ---------------**/
 
 .welcome h1, .about h3, .classes h3, .contact h3 {
-   background-color:rgb(255, 167, 85, .7);
+    background-color:rgb(255, 167, 85, .7);
     padding: 20px;
     text-align: center;
     margin-bottom: 0;
@@ -117,7 +114,7 @@ li .nav-link {
 }
 .about h3 span, .classes h3 span, .contact h3 span {
     background-color: rgb(231, 229, 229);
-box-shadow: 0 4px 5px -1px rgba(0,0,0,.5);
+    box-shadow: 0 4px 5px -1px rgba(0,0,0,.5);
 }
 
 /**--------------- welcome  ---------------**/
@@ -140,7 +137,7 @@ h1 span {
 #gallery h3 span {
     color: rgba(0,0,0,.5);
     box-shadow: 0 4px 5px -1px rgba(0,0,0,.5);
-   background-color: rgb(231, 229, 229);
+    background-color: rgb(231, 229, 229);
 
 }
 
@@ -159,16 +156,70 @@ h1 span {
 
 /**---------------  about  ---------------**/
 
-.about-us h4, .about-us h5, .about-us h6 {
+.about-us h4, .about-us h5 {
     margin-top: 20px;
+    text-align: center;
+}
+
+.therapies li::before {
+    /**list-style: square inside none;**/
+   content: "\25AA"; 
+   color: rgb(255, 167, 85.8);
+   width: 1em;
+   margin-right: 1em;  
+   float: center;
+}
+
+#about {
+    padding: 0 20px 0 20px;
+
+text-align: center;
+}
+
+#about h6 {
+     margin-top: 20px;
+     padding: 5px;
 }
 
 .therapies li {
-    list-style-type: circle;
-   
-    text-align: center;
-    
+    display: inline-block;
+    padding: 5px;
 }
+
+.testimonials {
+    padding: 20px;
+}
+
+.man, .lady {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+}
+
+
+.man img, .lady img {
+    filter: drop-shadow(0 0 0.75rem rgba(0,0,0,.75));
+    margin: 10px;
+}
+
+#contact-link a {
+    color: rgb(255, 167, 85, .7);
+}
+
+#contact-link a:hover {
+    box-shadow: 0 4px 5px -1px rgba(0,0,0,.5);
+    text-decoration: none;
+}
+
+#contact-link p {
+    text-align: center;
+}
+
+
+
+
+
 
 /**---------------  classes  ---------------**/
 .table, thead {
@@ -216,7 +267,7 @@ label {
 .btn {
     background-color: white;
     border-color: rgba(0, 0, 0, .1);
-     box-shadow: 0 4px 5px -1px rgba(0,0,0,.5);
+    box-shadow: 0 4px 5px -1px rgba(0,0,0,.5);
 }
 
 .button {
@@ -229,7 +280,7 @@ label {
 .btn:hover, .btn:active {
     color: rgb(255, 167, 85);
     border-color: rgb(255, 167, 85.8);
-   box-shadow: 0 4px 5px -1px rgba(0,0,0,.5);
+    box-shadow: 0 4px 5px -1px rgba(0,0,0,.5);
     background-color: white;
 }
 
