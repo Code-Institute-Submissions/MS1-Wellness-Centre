@@ -137,7 +137,7 @@ h1 span,
 }
 
 .welcome h3,
-p {
+.welcome h3 p  {
   margin-top: 20px;
   letter-spacing: 1.55px;
   line-height: 30px;
@@ -249,18 +249,13 @@ th {
 th {
   box-shadow: 0 4px 5px -1px rgba(0, 0, 0, 0.5);
 }
-}
 
 /**--------------- contact  ---------------**/
 
-.contact-us {
-  display: block;
-  margin: auto;
-  width: auto;
-  color: rgba(0, 0, 0, 0.5);
-  margin-top: 20px;
-  margin-bottom: 20px;
-  text-align: center;
+.form {
+    margin: 0 40px 40px 40px;
+    letter-spacing: 1.55px;
+    padding: 30px;
 }
 
 .form-control,
@@ -275,8 +270,6 @@ th {
   border-style: inset;
   box-shadow: 0 4px 5px -1px rgba(0, 0, 0, 0.5);
 }
-
-
 
 label {
   margin: 20px 0 10px 0;
@@ -310,11 +303,18 @@ label {
   border-style: inset;
 }
 
-.contact-details {
-margin-top: 40px;
+.contact-details  {
+  position: relative;
+  height: 100%;
+  display:flex ;
+  justify-content: center;
+align-items: center;
+  max-width: 100%;
+letter-spacing: 1.55px;
+line-height: 50px;
+padding: 30px;
+margin: 0 40px 40px 40px;
 }
-
-
 
 
 /**--------------- MOBILE DISPLAY  ---------------**/
@@ -322,8 +322,8 @@ margin-top: 40px;
 @media only screen and (max-width: 767px) {
 
 .main-content,
-.about p
-.contact {
+.about p,
+.contact-us {
     margin: 10px;
 }
 
@@ -354,10 +354,9 @@ max-height: 55px;
 }
 
 /**------ contact ------**/
-
-.contact-details {
-
- font-size: 10px;
-  margin-left: 10px;
+.form {
+    margin: 0 10px 10px 10px;
+    letter-spacing: 1.55px;
+    padding: 0;
 }
 }
