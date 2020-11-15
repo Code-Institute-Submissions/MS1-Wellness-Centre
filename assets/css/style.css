@@ -1,345 +1,363 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
 
- * {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    position: relative;
-    scroll-behavior: smooth;
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  position: relative;
+  scroll-behavior: smooth;
 }
 
 body {
-    height: 100%;
-    overflow: auto;
-    font-family: 'Rubik', sans-serif;
-    color: rgba(0, 0, 0, .5);
-    display: flex;
-    min-height: 100vh;
-    flex-direction: column;
-    background: linear-gradient(to left, rgb(247, 243, 243), rgb(228, 182, 140), rgb(247, 243, 243));
-    
+  height: 100%;
+  overflow: auto;
+  font-family: "Rubik", sans-serif;
+  color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  background: linear-gradient(
+    to left,
+    rgb(247, 243, 243),
+    rgb(228, 182, 140),
+    rgb(247, 243, 243)
+  );
 }
 
 /**--------------- navbar ---------------**/
 
 .navbar-custom {
-    background-color:rgb(231, 229, 229);
-    letter-spacing: 1.5px; 
-    box-shadow: 0 4px 5px -1px rgba(0,0,0,.75);
-    
+  background-color: rgb(231, 229, 229);
+  letter-spacing: 1.5px;
 }
-    
-.navbar-custom span {
-    text-decoration: overline;
-    border-bottom:  2px solid rgba(0, 0, 0, 0.5); 
-    text-transform: uppercase;
+
+.navbar-custom .menu-btn {
+  text-decoration: overline;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.5);
+  text-transform: uppercase;
 }
 
 .navbar-custom .nav-item:hover .nav-link {
-    color:  rgb(255, 167, 85,.8);
-    
+  color: rgb(255, 167, 85, 0.8);
 }
 
 .navbar-custom .navbar-toggler {
-    border: none;
-    text-decoration: none;
+  border: none;
+  text-decoration: none;
 }
 
 .navbar-toggler:focus,
 .navbar-toggler:active,
 .navbar-toggler-icon:focus {
-    outline: none;
-    box-shadow: none;
+  outline: none;
+  box-shadow: none;
 }
 
 li .nav-link {
-    margin-right: 20px;
+  margin-right: 20px;
 }
 
-#logo {
-    opacity: 0.7;
-    filter: drop-shadow(0 0 0.75rem rgba(0,0,0,.75));
+#logo img {
+  opacity: 0.7;
+  filter: drop-shadow(0 0 0.75rem rgba(0, 0, 0, 0.9));
 }
-
 
 /**--------------- footer ---------------**/
 
-
-#footer  {
-    background-color:rgb(255, 167, 85, .7);
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
-    letter-spacing: 1.5px;
-    font-size: 15px;
-    box-shadow: 0px -4px 5px -1px rgba(0,0,0,.4);
+#footer {
+  background-color: rgb(255, 167, 85, 0.7);
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  letter-spacing: 1.5px;
+  font-size: 15px;
+  box-shadow: 0px -4px 5px -1px rgba(0, 0, 0, 0.4);
 }
 
-.links, .list-inline-item a {
-    color: rgba(0, 0, 0, .5);
-    font-size: 25px;
-    float: right;
-    word-spacing: 30px;
-    justify-content: center
-    
+.links,
+.list-inline-item a {
+  display: flex;
+  flex-direction: row;
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 32px;
+  margin-right: 30px;
+  justify-content: center;
 }
 
 .links a:hover {
-    color: rgb(231, 229, 229);
-    text-shadow:1px 1px 5px rgba(0,0,0,.5);
+  color: rgb(231, 229, 229);
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+  text-decoration: none;
 }
 
+.links,
 .copyright {
-    float: left;  
+  margin: 20px 20px 20px 0;
 }
 
-.links, .copyright {
-    margin: 20px 20px 20px 0;  
+.welcome,
+.about,
+.classes,
+.contact {
+  flex: 1;
 }
 
+/**--------------- page headers  ---------------**/
 
-.welcome, .about, .classes, .contact {
-    flex: 1;
+.welcome h1,
+.about h3,
+.classes h3,
+.contact h3 {
+  background-color: rgb(255, 167, 85, 0.7);
+  padding: 20px;
+  text-align: center;
+  margin-bottom: 0;
+  box-shadow: 0 4px 5px -1px rgba(0, 0, 0, 0.4), 0px -4px 5px -1px rgba(0, 0, 0, 0.4);
+  letter-spacing: 1.55px;
 }
 
-/**--------------- page titles  ---------------**/
-
-.welcome h1, .about h3, .classes h3, .contact h3 {
-    background-color:rgb(255, 167, 85, .7);
-    padding: 20px;
-    text-align: center;
-    margin-bottom: 0;
-     box-shadow: 0 4px 5px -1px rgba(0,0,0,.4);
-    letter-spacing: 1.55px;
-    
-}
-.about h3 span, .classes h3 span, .contact h3 span {
-    background-color: rgb(231, 229, 229);
-    box-shadow: 0 4px 5px -1px rgba(0,0,0,.5);
-    text-shadow: 2px 3px 2px rgba(0,0,0,.2);
+h1 span,
+#gallery h3 span,
+.about h3 span,
+.classes h3 span,
+.contact h3 span {
+  background-color: rgb(231, 229, 229);
+  box-shadow: 0 4px 5px -1px rgba(0, 0, 0, 0.5);
+  text-shadow: 2px 3px 2px rgba(0, 0, 0, 0.2);
 }
 
-/**--------------- welcome  ---------------**/
+/**--------------- homepage  ---------------**/
 
 .welcome {
-    text-align: center;
+  text-align: center;
 }
 
-h1 span {
-   background-color: rgb(231, 229, 229);
-   box-shadow: 0 4px 5px -1px rgba(0,0,0,.5);
-   text-shadow: 2px 3px 2px rgba(0,0,0,.2);
+.welcome h3 {
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
 }
 
-.welcome h3{
-    text-shadow: 2px 3px 2px rgba(0,0,0,.2);
-}
-
-.welcome h3, p {
-    margin-top: 20px;
-    letter-spacing: 1.55px;
-    line-height: 30px;
-}
-
-#gallery h3 span {
-    color: rgba(0,0,0,.5);
-    box-shadow: 0 4px 5px -1px rgba(0,0,0,.5);
-    background-color: rgb(231, 229, 229);
-    text-shadow: 2px 3px 2px rgba(0,0,0,.2);
-
-}
-
-.carousel-item img {
-    max-width: 80%;
-    height: auto;
-    text-align: center;
-    display: block;
-    margin: auto;
-    margin-top: 20px;
-    border-radius: 20px;
-    margin-bottom: 20px;
-    filter: drop-shadow(0 0 0.75rem rgba(0,0,0,.75));
-    border: 4px solid rgb(228, 182, 140);
-    border-style: outset;
+.welcome h3,
+p {
+  margin-top: 20px;
+  letter-spacing: 1.55px;
+  line-height: 30px;
 }
 
 .quote span {
-     box-shadow: 0 4px 5px -1px rgba(0,0,0,.5);
-    background-color: rgb(231, 229, 229);
+  box-shadow: 0 4px 5px -1px rgba(0, 0, 0, 0.5);
+  background-color: rgb(231, 229, 229);
+}
+
+/**--- gallery ---**/
+
+.carousel-item img {
+  max-width: 80%;
+  height: auto;
+  text-align: center;
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+  filter: drop-shadow(0 0 0.75rem rgba(0, 0, 0, 0.75));
+  border: 2px solid rgb(228, 182, 140.8);
+  border-style: outset;
 }
 
 /**---------------  about  ---------------**/
 
-.about-us h4, .about-us h5, .therapies {
-    margin-top: 20px;
-    text-align: center;
-    
+.about {
+  text-align: center;
 }
 
-.therapies li::before {
-   content: "\25AA"; 
-   color: rgb(248, 146, 50);
-   margin-right: 1em;  
-   float: center; 
+.about p {
+    margin: 20px;
 }
 
-#about, .man p, .lady p {
-    padding: 0 20px 0 20px;
-text-align: center;
-}
-
-#about h6 {
-     margin-top: 20px;
-     padding: 5px;
+.about h4,
+.about h5,
+.therapies {
+  margin-top: 20px;
 }
 
 .about h5 {
-    box-shadow: 0 4px 5px -1px rgba(0,0,0,.5);
-    background-color: rgb(231, 229, 229);
-     text-shadow: 2px 2px 2px rgba(0,0,0,.2);
+  box-shadow: 0 4px 5px -1px rgba(0, 0, 0, 0.5), 0px -4px 5px -1px rgba(0, 0, 0, 0.4);
+  background-color: rgb(231, 229, 229);
+  text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.2); 
 }
 
-.about h4 {
-    text-shadow: 2px 3px 2px rgba(0,0,0,.2);
+/**--- bullet points ---**/
+.therapies li::before {
+  content: "\25AA";
+  color: rgb(248, 146, 50);
+  margin-right: 1em;
+  float: center;
 }
 
 .therapies li {
-    display: inline-block;
-    padding: 5px;
+  display: inline-block;
+  margin-left: 20px;
 }
 
-.testimonials {
-    padding: 20px;
+/**--- testimonials ---**/
+
+.man,
+.lady {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 100%;
 }
 
-.man, .lady {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    max-width: 100%;
-    
+.man img,
+.lady img {
+  filter: drop-shadow(0 0 0.75rem rgba(0, 0, 0, 0.75));
+  margin: 20px 10px 10px 10px;
+  border: 2px solid rgb(231, 229, 229.9);
+  border-style: outset;
 }
 
-
-.man img, .lady img {
-    filter: drop-shadow(0 0 0.75rem rgba(0,0,0,.75));
-    margin: 20px 10px 10px 10px;
-    border: 5px solid rgb(231, 229, 229.9);
-    border-style: outset;
-}
+/**--- contact btn ---**/
 
 #contact-link a {
-    color: rgb(255, 167, 85, .7);
-    background-color:  rgb(231, 229, 229);
-    box-shadow: 0 4px 5px -1px rgba(0,0,0,.5);
+  color: rgb(255, 167, 85, 0.7);
+  background-color: rgb(231, 229, 229);
+  box-shadow: 0 4px 5px -1px rgba(0, 0, 0, 0.5);
 }
 
 #contact-link a:hover {
-    text-decoration: none;
-    background-color: rgb(255, 255, 255);
+  text-decoration: none;
+  background-color: rgb(255, 255, 255);
 }
-
-#contact-link p {
-    text-align: center;
-}
-
-
-
-
 
 
 /**---------------  classes  ---------------**/
-.table, thead {
-      box-shadow: 0 4px 5px -1px rgba(0,0,0,.5);
+
+.table {
+    margin-top: 30px;
 }
 
-td {
-    color: rgba(0, 0, 0, .5);
-    vertical-align: middle;
+thead {
+  box-shadow: 0 4px 5px -1px rgba(0, 0, 0, 0.2), 0px -4px 5px -1px rgba(0, 0, 0, 0.5);
+}
+
+td,
+th {
+  color: rgba(0, 0, 0, 0.5);
 }
 
 th {
-    color: rgba(0, 0, 0, .5);
-    box-shadow: 0 4px 5px -1px rgba(0,0,0,.5);
+  box-shadow: 0 4px 5px -1px rgba(0, 0, 0, 0.5);
+}
 }
 
 /**--------------- contact  ---------------**/
 
-form {
-    display: block;
-    margin: auto;
-    width: auto;
-    color: rgba(0, 0, 0, .5);
-    margin-top: 20px;
-    margin-bottom: 20px;
-    
+.contact-us {
+  display: block;
+  margin: auto;
+  width: auto;
+  color: rgba(0, 0, 0, 0.5);
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
 }
 
-.form-control, .overflow-auto {
-    box-shadow: 0 4px 5px -1px rgba(0,0,0,.5);
+.form-control,
+.overflow-auto {
+  box-shadow: 0 4px 5px -1px rgba(0, 0, 0, 0.5);
 }
 
-.form-control:focus, .overflow-auto:focus {
-    border-color: rgb(255, 167, 85.8);
-    border-width: 4px; 
-    border-style: inset;
-    box-shadow: 0 4px 5px -1px rgba(0,0,0,.5);
+.form-control:focus,
+.overflow-auto:focus {
+  border-color: rgb(255, 167, 85.8);
+  border-width: 4px;
+  border-style: inset;
+  box-shadow: 0 4px 5px -1px rgba(0, 0, 0, 0.5);
 }
+
+
 
 label {
-    margin: 20px 0 10px 0;
-
+  margin: 20px 0 10px 0;
 }
 
-#reason, .btn {
-    color: rgba(0, 0, 0, .5);
+#reason,
+.btn {
+  color: rgba(0, 0, 0, 0.5);
 }
 
 .btn {
-    background-color: rgb(255, 255, 255);
-    border-color: rgb(231, 229, 229,.9);
-    box-shadow: 0 4px 5px -1px rgba(0,0,0,.5);
-    border-width: 4px; 
-    border-style: outset;
+  background-color: rgb(255, 255, 255);
+  border-color: rgb(231, 229, 229, 0.9);
+  box-shadow: 0 4px 5px -1px rgba(0, 0, 0, 0.5);
+  border-width: 4px;
+  border-style: outset;
 }
 
 .button {
-    text-align: center;
-    margin-top: 20px;
-
-    
+  text-align: center;
+  margin-top: 20px;
 }
 
-.btn:hover, .btn:active {
-    color: rgb(255, 167, 85);
-    border-color: rgb(255, 167, 85.8);
-    box-shadow: 0 4px 5px -1px rgba(0,0,0,.5);
-    background-color: rgb(255, 255, 255);
-    border-width: 4px; 
-    border-style: inset;
+.btn:hover,
+.btn:active {
+  color: rgb(255, 167, 85);
+  border-color: rgb(255, 167, 85.8);
+  box-shadow: 0 4px 5px -1px rgba(0, 0, 0, 0.5);
+  background-color: rgb(255, 255, 255);
+  border-width: 4px;
+  border-style: inset;
 }
-
-.contact-us{
-margin: auto;
-width: 50%;
-padding: 10px;
-  }
 
 .contact-details {
-    margin-top: 20px;
-}
-
-.contact-details i {
-    
+margin-top: 40px;
 }
 
 
 
 
+/**--------------- MOBILE DISPLAY  ---------------**/
 
+@media only screen and (max-width: 767px) {
 
+.main-content,
+.about p
+.contact {
+    margin: 10px;
+}
 
+/**------ navbar ------**/
 
+#logo img {
+max-width: 80px;
+max-height: 55px;
+}
 
+/**------ footer ------**/
+.links,
+.list-inline-item a {
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin-right: 10px; 
 
+}
 
+/**------ about ------**/
+
+.lady img, .man img {
+       display: none;
+}
+
+.testimonials {
+    padding-bottom: 0;
+}
+
+/**------ contact ------**/
+
+.contact-details {
+
+ font-size: 10px;
+  margin-left: 10px;
+}
+}
