@@ -257,13 +257,24 @@ th {
 
 /**--------------- contact  ---------------**/
 
-.form {
-    margin: 0 40px 40px 40px;
-    letter-spacing: 1.55px;
-    padding: 30px;
-    align-content: center;
- 
+.contact {
+    margin: 0;
 }
+
+.contact-us {
+position: relative;
+  height:100%;
+  display:flex ;
+  align-items: center;
+  justify-content: center;
+}
+
+.form {
+   
+    letter-spacing: 1.55px;
+    align-content: center;
+    padding: 20px;
+ }
 
 .form-control,
 .overflow-auto {
@@ -314,13 +325,10 @@ label {
   position: relative;
   height: 100%;
   display:flex ;
-  justify-content: center;
 align-items: center;
   max-width: 100%;
 letter-spacing: 1.55px;
 line-height: 50px;
-padding: 30px;
-margin: 0 40px 40px 40px;
 }
 
 
@@ -364,6 +372,6 @@ max-height: 55px;
 .form {
     margin: 0 10px 10px 10px;
     letter-spacing: 1.55px;
-    padding: 0;
+    padding: 10px;
 }
 }
