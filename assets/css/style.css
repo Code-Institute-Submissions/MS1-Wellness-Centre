@@ -170,24 +170,17 @@ li .nav-link {
 
 /**---------------  about  ---------------**/
 
-
 #about {
   text-align: center;
-   letter-spacing: 1.55px;
+  letter-spacing: 1.55px;
   line-height: 30px;
 }
 #about p {
-    margin: 20px;
+  margin: 20px;
 }
-
-#therapies li {
-    margin-top: 20px;
-}
-
-
 
 #about-us {
-     margin-top: 30px;
+  margin-top: 30px;
 }
 
 #about h5 {
@@ -208,6 +201,7 @@ li .nav-link {
 #therapies li {
   display: inline-block;
   margin-left: 20px;
+  margin-top: 20px;
 }
 
 /**--- testimonials ---**/
@@ -263,7 +257,6 @@ th {
 
 /**--------------- contact  ---------------**/
 
-
 #contact-us {
   position: relative;
   height: 100%;
@@ -271,7 +264,6 @@ th {
   align-items: center;
   justify-content: center;
   margin-top: 30px;
- 
 }
 
 #form {
@@ -330,7 +322,6 @@ label {
   line-height: 50px;
   padding: 30px;
   margin: 0 40px 40px 40px;
-
 }
 
 /**--------------- MOBILE DISPLAY  ---------------**/
