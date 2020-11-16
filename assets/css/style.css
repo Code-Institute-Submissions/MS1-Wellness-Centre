@@ -225,14 +225,14 @@ li .nav-link {
 /**--- contact btn ---**/
 
 #contact-link a {
-  color: rgb(255, 167, 85, 0.7);
-  background-color: rgb(231, 229, 229);
+  color: rgb(255, 167, 85);
+  background-color: rgb(255, 255, 255);
   box-shadow: 0 4px 5px -1px rgba(0, 0, 0, 0.5);
 }
 
 #contact-link a:hover {
   text-decoration: none;
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(231, 229, 229);
 }
 
 /**---------------  classes  ---------------**/
@@ -322,6 +322,19 @@ label {
   line-height: 50px;
   padding: 30px;
   margin: 0 40px 40px 40px;
+}
+
+/**--- phone link---**/
+
+#contact-details a {
+  color: rgb(255, 167, 85);
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 4px 5px -1px rgba(0, 0, 0, 0.5);
+}
+
+#contact-details a:hover {
+  text-decoration: none;
+  background-color: rgb(231, 229, 229);
 }
 
 /**--------------- MOBILE DISPLAY  ---------------**/
