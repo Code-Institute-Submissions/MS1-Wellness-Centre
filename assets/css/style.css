@@ -156,16 +156,13 @@ li .nav-link {
 /**--- gallery ---**/
 
 #gallery img {
-  max-width: 100%;
   height: 600px;
-  padding: 0;
-  text-align: center;
-  margin: auto;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  max-width: 100%;
   filter: drop-shadow(0 0 0.75rem rgba(0, 0, 0, 0.75));
   border: 2px solid rgb(228, 182, 140.8);
   border-style: outset;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 /**---------------  about  ---------------**/
@@ -264,14 +261,13 @@ th {
   align-items: center;
   justify-content: center;
   margin-top: 30px;
-
 }
 
 #form {
   letter-spacing: 1.55px;
   align-content: center;
   padding: 20px;
-margin: 0 40px 40px 40px;
+  margin: 0 40px 40px 40px;
 }
 
 .form-control,
@@ -339,10 +335,6 @@ label {
   background-color: rgb(231, 229, 229);
 }
 
-  
-
-
-
 /**--------------- MOBILE DISPLAY  ---------------**/
 
 @media only screen and (max-width: 767px) {
@@ -388,7 +380,6 @@ label {
     letter-spacing: 1.55px;
     padding: 10px;
   }
-
 }
 
 /**--------------- TABLET DISPLAY  ---------------**/
@@ -400,8 +391,7 @@ label {
   }
 
   #contact-us form {
-      margin-left: 10%;
-      margin-right: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
   }
-
 }
