@@ -264,12 +264,14 @@ th {
   align-items: center;
   justify-content: center;
   margin-top: 30px;
+
 }
 
 #form {
   letter-spacing: 1.55px;
   align-content: center;
   padding: 20px;
+margin: 0 40px 40px 40px;
 }
 
 .form-control,
@@ -337,6 +339,10 @@ label {
   background-color: rgb(231, 229, 229);
 }
 
+  
+
+
+
 /**--------------- MOBILE DISPLAY  ---------------**/
 
 @media only screen and (max-width: 767px) {
@@ -382,6 +388,7 @@ label {
     letter-spacing: 1.55px;
     padding: 10px;
   }
+
 }
 
 /**--------------- TABLET DISPLAY  ---------------**/
@@ -391,4 +398,10 @@ label {
     width: 100%;
     height: auto;
   }
+
+  #contact-us form {
+      margin-left: 10%;
+      margin-right: 10%;
+  }
+
 }
