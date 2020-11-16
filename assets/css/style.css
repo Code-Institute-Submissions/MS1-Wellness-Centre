@@ -374,6 +374,11 @@ label {
     display: none;
   }
 
+  #therapies li {
+  display: block;
+  text-align: left;
+}
+
   /**------ contact ------**/
   .form {
     margin: 0 10px 10px 10px;
