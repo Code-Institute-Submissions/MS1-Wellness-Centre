@@ -1,106 +1,165 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css"/>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css"/>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css"
+    />
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
     <title>Central Wellness</title>
-    </head>
-    <body>
+  </head>
+  <body>
     <header>
-    <nav class="navbar navbar-expand-lg navbar-light navbar-custom">
-        <a class="navbar-brand" href="index.html" id="logo"> 
-        <img src="assets/images/lotuslogo.png" alt="Lotus Flower Logo" width="150" height="100"></a>
+      <nav class="navbar navbar-expand-lg navbar-light navbar-custom">
+        <a class="navbar-brand" href="index.html" id="logo">
+          <img
+            src="assets/images/lotuslogo.png"
+            alt="Lotus Flower Logo"
+            width="150"
+            height="100"
+        /></a>
         <button
-            class="navbar-toggler"
-            type="button"
-            data-toggle="collapse"
-            data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation">
-      <span class="menu-btn">menu</span>
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="menu-btn">menu</span>
         </button>
 
         <div class="menu collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ml-auto">
-            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-            <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
-            <li class="nav-item"><a class="nav-link" href="classes.html">Classes</a></li>
-            <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
-        </ul>
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="classes.html">Classes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
         </div>
-    </nav>
+      </nav>
     </header>
 
-    <section id="contact"><h3><span> Contact</span>
-    <span>Us</span></h3>
-    <div class="container" id="contact-us">
-    <div class="row">
-    <div class="col-1-sm-12 col-1-md-6 col-1-lg-6">
-    <form class="form">
-    <label for="name">Name</label>
-        <div class="form-row">
-            <div class="col"><input type="text" class="form-control" placeholder="First name"></div>
-            <div class="col"><input type="text" class="form-control" placeholder="Last name"></div>
-        </div>
+    <section id="contact">
+      <h3><span> Contact</span> <span>Us</span></h3>
+      <div class="container-fluid" id="contact-us">
+        <div class="row">
+          <div class="col-1-sm-12 col-1-md-6 col-1-lg-6">
+            <form class="form">
+              <label for="name">Name</label>
+              <div class="form-row">
+                <div class="col">
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="First name"
+                  />
+                </div>
+                <div class="col">
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Last name"
+                  />
+                </div>
+              </div>
 
-        <div class="form-group">
-            <label for="email">Email Address</label>
-            <input type="email" class="form-control" id="email" placeholder="name@example.com">
-        </div> 
+              <div class="form-group">
+                <label for="email">Email Address</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="email"
+                  placeholder="name@example.com"
+                />
+              </div>
 
-        <div class="form-group">
-        <select class="form-control" id="reason">
-            <option>Please Select Reason For Contact</option>
-            <option>Class Queries, Bookings & Cancellations</option>
-            <option>Therapy Queries, Bookings & Cancellations</option>
-            <option>Gym Queries, Bookings & Cancellations</option>
-            <option>Room Hire and Bookings</option>
-            <option>Other</option>
-        </select>
-        </div>
-        <div class="overflow-auto">
-        <textarea class="form-control" id="form-conrol" rows="6" placeholder="Type Message Here"></textarea>
-        </div>
-        <div class="button">
-        <button type="button" class="btn btn-light">Send</button>
-        </div>
-    </form>
-    </div>
-    
-    <div class="col-2-sm-12 col-2-md-6 col-2-lg-6">
-    <div id="contact-details">
-    <div id="container address">
-     <div id="container number">
-    <i class="fas fa-phone-square-alt"></i><p> ##### ######</p>
-    <i class="fas fa-map-marker-alt"></i><p> 100 Health Street,<br>Wellbeing Land,<br>Positive-shire,<br>HE41 THY</p>
-    </div>
-    </div>
-    
-    </div>
-    </div>
-    </div>
-    </div>
-    </section>
-    
+              <div class="form-group">
+                <select class="form-control" id="reason">
+                  <option>Please Select Reason For Contact</option>
+                  <option>Class Queries, Bookings & Cancellations</option>
+                  <option>Therapy Queries, Bookings & Cancellations</option>
+                  <option>Gym Queries, Bookings & Cancellations</option>
+                  <option>Room Hire and Bookings</option>
+                  <option>Other</option>
+                </select>
+              </div>
+              <div class="overflow-auto">
+                <textarea
+                  class="form-control"
+                  id="form-conrol"
+                  rows="6"
+                  placeholder="Type Message Here"
+                ></textarea>
+              </div>
+              <div class="button">
+                <button type="button" class="btn btn-light">Send</button>
+              </div>
+            </form>
+          </div>
 
-  <footer id="footer"> 
-  <div class="container-fluid">
-        <p class="copyright">© RSM 2020</p>
+          <div class="col-2-sm-12 col-2-md-6 col-2-lg-6">
+            <div id="contact-details">
+             
+                  <i class="fas fa-phone-square-alt"></i>
+                  <p>##### ######</p>
+                  <i class="fas fa-map-marker-alt"></i>
+                  <p>
+                    100 Health Street,<br />Wellbeing Land,<br />Positive-shire,<br />HE41
+                    THY
+                  </p>
+                </div>
+              </div>
             </div>
-             <div class="social-networks">
+          </div>
+        
+    </section>
+
+    <footer id="footer">
+      <div class="container-fluid">
+        <p class="copyright">© RSM 2020</p>
+      </div>
+      <div class="social-networks">
         <ul class="links">
-            <li class="list-inline-item"><a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-square"> </i></a></li>
-            <li class="list-inline-item"><a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter-square"> </i></a></li>
-            <li class="list-inline-item"><a href="https://www.youtube.com" target="_blank"><i class="fab fa-youtube-square"> </i></a></li>
-            <li class="list-inline-item"><a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram-square"></i></a></li>
+          <li class="list-inline-item">
+            <a href="https://www.facebook.com" target="_blank"
+              ><i class="fab fa-facebook-square"> </i
+            ></a>
+          </li>
+          <li class="list-inline-item">
+            <a href="https://www.twitter.com" target="_blank"
+              ><i class="fab fa-twitter-square"> </i
+            ></a>
+          </li>
+          <li class="list-inline-item">
+            <a href="https://www.youtube.com" target="_blank"
+              ><i class="fab fa-youtube-square"> </i
+            ></a>
+          </li>
+          <li class="list-inline-item">
+            <a href="https://www.instagram.com" target="_blank"
+              ><i class="fab fa-instagram-square"></i
+            ></a>
+          </li>
         </ul>
-             </div>
-        </footer>
+      </div>
+    </footer>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
