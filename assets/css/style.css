@@ -27,7 +27,12 @@ body {
 /**--------------- navbar ---------------**/
 
 .navbar-custom {
-  background-color: rgb(231, 229, 229);
+  background: linear-gradient(
+    to left,
+    rgb(247, 243, 243),
+    rgb(228, 182, 140),
+    rgb(247, 243, 243)
+  );
   letter-spacing: 1.5px;
 }
 
@@ -38,7 +43,7 @@ body {
 }
 
 .navbar-custom .nav-item:hover .nav-link {
-  color: rgb(255, 167, 85, 0.8);
+  color: rgb(255, 167, 85);
 }
 
 .navbar-custom .navbar-toggler {
@@ -256,6 +261,8 @@ th {
     margin: 0 40px 40px 40px;
     letter-spacing: 1.55px;
     padding: 30px;
+    align-content: center;
+ 
 }
 
 .form-control,
