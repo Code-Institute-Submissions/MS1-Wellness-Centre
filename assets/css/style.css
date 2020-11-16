@@ -170,18 +170,24 @@ li .nav-link {
 
 /**---------------  about  ---------------**/
 
+
 #about {
   text-align: center;
+   letter-spacing: 1.55px;
+  line-height: 30px;
 }
-
 #about p {
-  margin: 20px;
+    margin: 20px;
 }
 
-#about h4,
-#about h5,
-#therapies {
-  margin-top: 20px;
+#therapies li {
+    margin-top: 20px;
+}
+
+
+
+#about-us {
+     margin-top: 30px;
 }
 
 #about h5 {
@@ -217,9 +223,9 @@ li .nav-link {
 #man img,
 #lady img {
   filter: drop-shadow(0 0 0.75rem rgba(0, 0, 0, 0.75));
-  margin: 20px 10px 10px 10px;
   border: 2px solid rgb(231, 229, 229.9);
   border-style: outset;
+  margin-top: 20px;
 }
 
 /**--- contact btn ---**/
@@ -257,9 +263,6 @@ th {
 
 /**--------------- contact  ---------------**/
 
-#contact {
-  margin: 0;
-}
 
 #contact-us {
   position: relative;
@@ -267,7 +270,8 @@ th {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-top: 20px;
+  margin-top: 30px;
+ 
 }
 
 #form {
@@ -326,6 +330,7 @@ label {
   line-height: 50px;
   padding: 30px;
   margin: 0 40px 40px 40px;
+
 }
 
 /**--------------- MOBILE DISPLAY  ---------------**/
@@ -365,10 +370,6 @@ label {
   #lady img,
   #man img {
     display: none;
-  }
-
-  #about p {
-    padding-bottom: 0;
   }
 
   /**------ contact ------**/
