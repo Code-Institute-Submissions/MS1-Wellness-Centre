@@ -10,7 +10,8 @@ languages HTML5 and CSS3.
 
 ---
 
-[Rowy2105/MS1-Wellness-Centre](Rowy2105/MS1-Wellness-Centre)
+[Rowy2105/MS1-Wellness-Centre](Rowy2105/MS1-Wellness-Centre) Live Website.\
+[Github Repository](https://github.com/Rowy2105/MS1-Wellness-Centre).
 
 ### **Table of contents**
  * Overview
