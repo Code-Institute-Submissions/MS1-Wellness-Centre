@@ -1,32 +1,31 @@
 <!DOCTYPE html>
+<!-- Boiler plate taken from Code Institute -->
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css"
-    />
-    <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
-    <title>Central Wellness</title>
-  </head>
 
-  <body>
-    <header>
-      <nav class="navbar navbar-expand-lg navbar-light navbar-custom">
-        <a class="navbar-brand" href="index.html" id="logo">
-          <img
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+	<link rel="stylesheet"
+		href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css" />
+	<link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+	<title>Central Wellness</title>
+</head>
+
+<body>
+	<header>
+		<!-- Navbar snippet taken from bootstrap:
+            https://getbootstrap.com/docs/4.1/components/navbar/  -->
+		<nav class="navbar navbar-expand-lg navbar-light navbar-custom">
+			<a class="navbar-brand" href="index.html" id="logo">
+				<img
             src="assets/images/lotuslogo.png"
             alt="Lotus Flower Logo"
             width="150"
             height="100"
         /></a>
-        <button
+				<button
           class="navbar-toggler"
           type="button"
           data-toggle="collapse"
@@ -38,129 +37,128 @@
           <span class="menu-btn">menu</span>
         </button>
 
-        <div class="menu collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="index.html">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="about.html">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="classes.html">Classes</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
-    </header>
+				<div class="menu collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item">
+							<a class="nav-link" href="index.html">Home</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="about.html">About</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="classes.html">Classes</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="contact.html">Contact</a>
+						</li>
+					</ul>
+				</div>
+		</nav>
+	</header>
 
-    <section id="welcome">
-      <h1>
-        <span>Welcome</span>
-        <span>To</span>
-        <span> Central</span>
-        <span>Wellness</span>
-      </h1>
+	<section id="welcome">
+		<h1>
+			<span>Welcome</span>
+			<span>To</span>
+			<span> Central</span>
+			<span>Wellness</span>
+		</h1>
 
-      <h3>Are you looking for...</h3>
+		<h3>Are you looking for...</h3>
 
-      <div id="gallery" class="carousel slide container" data-ride="carousel">
-        <ol class="carousel-indicators">
-          <li data-target="#gallery" data-slide-to="0" class="active"></li>
-          <li data-target="#gallery" data-slide-to="1"></li>
-          <li data-target="#gallery" data-slide-to="2"></li>
-          <li data-target="#gallery" data-slide-to="3"></li>
-        </ol>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <h3><span>Relaxation?</span></h3>
-            <img
+		<!--Carousel snippet taken from bootstrap:
+            https://getbootstrap.com/docs/4.0/components/carousel/-->
+
+		<div id="gallery" class="carousel slide container" data-ride="carousel">
+			<ol class="carousel-indicators">
+				<li data-target="#gallery" data-slide-to="0" class="active"></li>
+				<li data-target="#gallery" data-slide-to="1"></li>
+				<li data-target="#gallery" data-slide-to="2"></li>
+				<li data-target="#gallery" data-slide-to="3"></li>
+			</ol>
+			<div class="carousel-inner">
+				<div class="carousel-item active">
+					<h3><span>Relaxation?</span></h3>
+					<img
               src="assets/images/gallery/acupuncture.jpg"
               alt="acupuncture"
               class="d-block w-100"
             />
           </div>
-          <div class="carousel-item">
-            <h3><span>Fitness?</span></h3>
-            <img
+					<div class="carousel-item">
+						<h3><span>Fitness?</span></h3>
+						<img
               src="assets/images/gallery/exercise.png"
               class="d-block w-100"
               alt="man exercising"
             />
           </div>
-          <div class="carousel-item">
-            <h3><span>Friendships?</span></h3>
-            <img
+						<div class="carousel-item">
+							<h3><span>Friendships?</span></h3>
+							<img
               src="assets/images/gallery/friends.png"
               class="d-block w-100"
               alt="friends exercising"
             />
           </div>
-          <div class="carousel-item">
-            <h3><span>Wellness?</span></h3>
-            <img
+							<div class="carousel-item">
+								<h3><span>Wellness?</span></h3>
+								<img
               src="assets/images/gallery/pilates.png"
               class="d-block w-100"
               alt="pilates lady"
             />
           </div>
-        </div>
-      </div>
-      <h3>Then the Central Wellness family is here for you!</h3>
-      <p>
-        During these uncertain times we must look after each other more than
-        ever.
-      </p>
-      <p>The best way we can do this is by taking care of ourselves.</p>
-      <h3 id="quote">
-        <span>"</span>
-        <span> Put</span>
-        <span> Your</span>
-        <span> Own</span>
-        <span> Oxygen</span>
-        <span> Mask</span>
-        <span> On</span>
-        <span> First</span>
-        <span>"</span>
-      </h3>
-    </section>
+							</div>
+						</div>
+						<h3>Then the Central Wellness family is here for you!</h3>
+						<p>
+							During these uncertain times we must look after each other more than
+							ever.
+						</p>
+						<p>The best way we can do this is by taking care of ourselves.</p>
+						<h3 id="quote">
+							<span>"</span>
+							<span> Put</span>
+							<span> Your</span>
+							<span> Own</span>
+							<span> Oxygen</span>
+							<span> Mask</span>
+							<span> On</span>
+							<span> First</span>
+							<span>"</span>
+						</h3>
+	</section>
 
-    <footer id="footer">
-      <div class="container-fluid">
-        <p class="copyright">© RSM 2020</p>
-      </div>
-      <div class="social-networks">
-        <ul class="links">
-          <li class="list-inline-item">
-            <a href="https://www.facebook.com" target="_blank"
-              ><i class="fab fa-facebook-square"> </i
-            ></a>
-          </li>
-          <li class="list-inline-item">
-            <a href="https://www.twitter.com" target="_blank"
-              ><i class="fab fa-twitter-square"> </i
-            ></a>
-          </li>
-          <li class="list-inline-item">
-            <a href="https://www.youtube.com" target="_blank"
-              ><i class="fab fa-youtube-square"> </i
-            ></a>
-          </li>
-          <li class="list-inline-item">
-            <a href="https://www.instagram.com" target="_blank"
-              ><i class="fab fa-instagram-square"></i
-            ></a>
-          </li>
-        </ul>
-      </div>
-    </footer>
+	<!--Social media icons sourced from fontawsome:
+        https://fontawesome.com/ -->
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <script src="carousel.js"></script>
-  </body>
+	<footer id="footer">
+		<div class="container-fluid">
+			<p class="copyright">© RSM 2020</p>
+		</div>
+		<div class="social-networks">
+			<ul class="links">
+				<li class="list-inline-item">
+					<a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-square"> </i></a>
+				</li>
+				<li class="list-inline-item">
+					<a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter-square"> </i></a>
+				</li>
+				<li class="list-inline-item">
+					<a href="https://www.youtube.com" target="_blank"><i class="fab fa-youtube-square"> </i></a>
+				</li>
+				<li class="list-inline-item">
+					<a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram-square"></i></a>
+				</li>
+			</ul>
+		</div>
+	</footer>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.min.js"></script>
+	<script src="carousel.js"></script>
+</body>
+
 </html>

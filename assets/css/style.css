@@ -1,3 +1,5 @@
+/** Rubik Font: Google Fonts:
+ https://fonts.google.com/specimen/Rubik?sidebar.open=true&selection.family=Rubik **/
 @import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
 
 * {
@@ -6,6 +8,19 @@
   border: 0;
   position: relative;
 }
+
+/**---  Box shadow codes edited from the original source:
+        https://forums.colorlib.com/t/how-to-add-shadow-on-the-menu-bar-and-footer/15062/4 
+        
+        Linear gradients code edited from the original source:
+        https://developer.mozilla.org/en-US/docs/Web/CSS/linear-gradient()
+
+        Drop shadow codes edited from the original source:
+        https://developer.mozilla.org/en-US/docs/Web/CSS/filter-function/drop-shadow()
+---**/
+
+/**---  code in the body and classes below for keeping the footer at the bottom         of the page when there is not enough content to push it down. flex: 1;,         flex-direction, display, min height taken from:
+        https://stackoverflow.com/a/45762747 ---**/
 
 body {
   height: 100%;
@@ -21,6 +36,13 @@ body {
     rgb(228, 182, 140),
     rgb(247, 243, 243)
   );
+}
+
+#welcome,
+#about,
+#classes,
+#contact {
+  flex: 1;
 }
 
 /**--------------- navbar ---------------**/
@@ -99,13 +121,6 @@ li .nav-link {
   margin: 20px 20px 20px 0;
 }
 
-#welcome,
-#about,
-#classes,
-#contact {
-  flex: 1;
-}
-
 /**--------------- page headers  ---------------**/
 
 #welcome h1,
@@ -120,7 +135,8 @@ li .nav-link {
     0px -4px 5px -1px rgba(0, 0, 0, 0.4);
   letter-spacing: 1.55px;
 }
-
+/**--- text shadow:
+https://developer.mozilla.org/en-US/docs/Web/CSS/text-shadow ---**/
 #welcome h1 span,
 #gallery h3 span,
 #about h3 span,
@@ -188,6 +204,12 @@ li .nav-link {
 }
 
 /**--- bullet points ---**/
+
+/**--- code for changing the color of the bullet points was taken from W3schools and geeks for geeks:
+ https://www.w3schools.com/howto/howto_css_bullet_color.asp
+ https://www.geeksforgeeks.org/how-to-set-bullet-colors-in-html-lists-using-only-css/
+ and edited to meet the needs of the project ---**/
+
 #therapies li::before {
   content: "\25AA";
   color: rgb(248, 146, 50);
