@@ -110,6 +110,8 @@ However the colour scheme did change in the coding process as it was apparent th
 * **_Font_**
 
 The font used for all of the text was "Rubik" as it is clear to read and soft on the page due to it's rounded edges.  The line and word spacing used also contributed to the clarity of the text.
+The Headings for each page have a the light grey colour for their background and each heading wording is placded with in a span adding to the design effect on each page.
+All of the pages text has a colour of rgba(0, 0, 0, 0.5) as the 0.5 transparency makes the black appear less harsh.
 
 * **_Imagery_**
 
@@ -123,10 +125,10 @@ The images chosen were to reflect the text displayed above on the homepage as a 
 
 The header/navbar and footer will be featured across all pages. They will not be fixed.\
 The pages will scroll on all devices.\
-A moving image gallery, carousel, welcoming the user to the site.\
+A moving image gallery (carousel) welcoming the user to the site.\
 The company logo is displayed in the corner of every page and when pressed will redirect the user back to the homepage.\
 On larger browsers the nav bar will be displayed on the screen.  On mobile devices and smaller tablets it will be shown as a menu icon that has a toggle function.\
-An interactive class timetable. When a row is clicked it has a darker background makiing it easier to read. Especially useful for mobile devices as the table has to be scrolled horizintally to view all the days.
+An interactive class timetable. When a row is clicked it has a darker background making it easier to read. Especially useful for mobile devices as the table has to be scrolled horizintally to view all the days.
 
 * **_Features to be implemented with more advance skill base._**
 
@@ -134,7 +136,7 @@ Send button to be functional.\
 A booking system for classes.\
 Modal pop up for COVID alert and procedures.
 
-Due to time being a factor it would have been good to add a download link of the timetable so users could keep a copy of it on their device for convenience.
+**Due to time being a factor it would have been good to add a download link of the timetable so users could keep a copy of it on their device for convenience.**
 
 ---
 
@@ -153,6 +155,10 @@ Due to time being a factor it would have been good to add a download link of the
 
 ### **Testing**
 
+Testing for all browsers was carried out throughout the development process through Devtools and also casting and inspecting to my own browsers.\  
+All HTML code was run through the [W3C Markup Validator](https://validator.w3.org/) and all CSS code was run through the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input).On my final test of all the code no errors were shown.\
+All CSS code was put though [Autoprefixer](https://autoprefixer.github.io/) adding -webkit- and -ms- throughout.
+
 footer middle of page - credit: https://stackoverflow.com/a/45762747\
 
 contact form kept sitting on the left on tab
@@ -163,7 +169,8 @@ images taken too long to display - fixed - compressed images
 
 ### **Barriers and how overcame**
 
-
+On the first test of my HTML code through the [W3C Markup Validator](https://validator.w3.org/) only one error was shown on all of the pages.  The error was on the contact page within the <form> element.  It would not accept 'label for="name"' as an id of name was not below within the input element. id="name" was added and the error was corrected.
+The error for CSS was 'float:center;' which is invalid and therefore removed without any disruption to the site.
 
 ---
 
@@ -211,38 +218,31 @@ All further reading taken place to consolidate and improve knowledge and underst
 and [Code Institute's](https://courses.codeinstitute.net) module content; All key fundamental elements which underpin the developing process as a whole.\
 [Youtube](https://youtube.com) was also used as a learning aid.
 
-[W3C Markup Validator](https://validator.w3.org/) used to check html code for syntax errors.\
-[W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) used to check CSS code for any errors in the code.\
+[W3C Markup Validator](https://validator.w3.org/) used to check all html code for syntax errors.\
+[W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) used to check all CSS code for any errors in the code.\
+[Autoprefixer](https://autoprefixer.github.io/) used to check all css code producing -webkit- and -ms-.\
 [Balsamiq](https://balsamiq.com/) was used to create the wireframes\
 [Atlassian](https://www.atlassian.com/git/tutorials/atlassian-git-cheatsheet) Basic Git Commands Cheat Sheet.\
 Github [markdown cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) was used a point of reference when using Markdown language.\
 [PDF to PNG](https://pdf2png.com/) Conversion.\
-[Anna Greaves README Video](https://www.youtube.com/watch?v=7BteidgLAyM&feature=youtu.be)\
+Anna Greaves [README Video](https://www.youtube.com/watch?v=7BteidgLAyM&feature=youtu.be).\
 [Image Compressor](https://compressjpeg.com/). Image optimiser to compress images to their most minimal size.
 The original colours the design was based on were choson from [Design Wizard](https://www.designwizard.com/blog/design-trends/colour-combination).
 
 ---
 
-### **Credits** – sourced photos, CI template, code snippets.
+### **Credits** 
 
-The lotus flower logo image was taken from [clipart-library](http://clipart-library.com/clipart/500336.htm) a free picture art gallery.
-
-Code Institute's gitpod template designed with the extentions that are needed for the project.
-
-Code to prevent the footer from being displayed in the middle of page was sourced from the stackoverflow forum: https://stackoverflow.com/a/45762747.
-
-Code for changing the color of the bullet points was taken from [W3schools](https://www.w3schools.com/howto/howto_css_bullet_color.asp) and [geeks for geeks](https://www.geeksforgeeks.org).
-
- [Carousel snippet](https://getbootstrap.com/docs/4.0/components/carousel) taken from bootstrap.
-
-[Navbar snippet](https://getbootstrap.com/docs/4.1/components/navbar/) taken from bootstrap.
-
-All photos have been sourced [Pexels](https://www.pexels.com/) a free stock photo source.
-
-Box shadow codes edited from [colorlib](https://forums.colorlib.com/t/how-to-add-shadow-on-the-menu-bar-and-footer/15062/4) forum.
-
-Linear gradients code edited from [Mozilla](https://developer.mozilla.org/en-US/docs/Web/CSS/linear-gradient()).
-
+The lotus flower logo image was taken from [clipart-library](http://clipart-library.com/clipart/500336.htm) a free picture art gallery.\
+Code Institute's gitpod template designed with the extentions that are needed for the project.\
+Code to prevent the footer from being displayed in the middle of page was sourced as an answer from the stackoverflow forum: https://stackoverflow.com/a/45762747.\
+Code for changing the color of the bullet points was taken from [W3schools](https://www.w3schools.com/howto/howto_css_bullet_color.asp) and [geeks for geeks](https://www.geeksforgeeks.org).\
+ Carousel snippet taken from [Bootstrap](https://getbootstrap.com/docs/4.0/components/carousel).\
+Navbar snippet taken from [Bootstrap](https://getbootstrap.com/docs/4.1/components/navbar/).\
+Form snippet taken from [Bootstrap](https://getbootstrap.com/docs/4.0/components/forms/).\
+All photos have been sourced [Pexels](https://www.pexels.com/) a free stock photo source.\
+Box shadow codes edited from [colorlib](https://forums.colorlib.com/t/how-to-add-shadow-on-the-menu-bar-and-footer/15062/4) forum.\
+Linear gradients code edited from [Mozilla](https://developer.mozilla.org/en-US/docs/Web/CSS/linear-gradient()).\
 Drop shadow codes edited from [Mozzila](https://developer.mozilla.org/en-US/docs/Web/CSS/filter-function/drop-shadow()).
 
 
@@ -250,7 +250,7 @@ Drop shadow codes edited from [Mozzila](https://developer.mozilla.org/en-US/docs
 
 ### **Acknowledgements** 
 
-Anna Greaves README Video\]
+Anna Greaves [README Video](https://www.youtube.com/watch?v=7BteidgLAyM&feature=youtu.be).
 
 Jim Lynx - User Centric Frontend Development Lead. Zoom lessons for MS1 planning and workflow with Git, Gitpod and Github.
 
