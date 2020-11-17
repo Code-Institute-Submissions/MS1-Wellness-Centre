@@ -1,4 +1,4 @@
-# Milestone Project 1 [Wellness Centre](Rowy2105/MS1-Wellness-Centre)
+# Milestone Project 1 [Wellness Centre](https://rowy2105.github.io/MS1-Wellness-Centre/)
 
 To present knowledge and understanding of modules learned by developing and implementing a static front-end web application using
 languages HTML5 and CSS3. 
@@ -10,8 +10,8 @@ languages HTML5 and CSS3.
 
 ---
 
-[Rowy2105/MS1-Wellness-Centre](Rowy2105/MS1-Wellness-Centre) Live Website.\
-[Github Repository](https://github.com/Rowy2105/MS1-Wellness-Centre).
+[Rowy2105/MS1-Wellness-Centre](https://rowy2105.github.io/MS1-Wellness-Centre/) Live Website.\
+[Github Repository](Rowy2105/MS1-Wellness-Centre).
 
 ### **Table of contents**
  * Overview
