@@ -1,4 +1,4 @@
-# Milestone Project 1 [Wellness Center](Rowy2105/MS1-Wellness-Centre)
+# Milestone Project 1 [Wellness Centre](Rowy2105/MS1-Wellness-Centre)
 
 To present knowledge and understanding of modules learned by developing and implementing a static front-end web application using
 languages HTML5 and CSS3. 
@@ -9,6 +9,8 @@ languages HTML5 and CSS3.
 ## Central Wellness: The Wellbeing Hub.
 
 ---
+
+[Rowy2105/MS1-Wellness-Centre](Rowy2105/MS1-Wellness-Centre)
 
 ### **Table of contents**
  * Overview
