@@ -1,4 +1,4 @@
-# Milestone Project 1
+# Milestone Project 1 [Wellness Center](Rowy2105/MS1-Wellness-Centre)
 
 To present knowledge and understanding of modules learned by developing and implementing a static front-end web application using
 languages HTML5 and CSS3. 
@@ -62,7 +62,7 @@ classes but also by having experienced practitioners on site to help with other 
 The centres address and phone number will be provided on the contact page.
 
 **_Creating an online community:_**
-* Links to social media platforms: Raising awareness of current health issues and how these can be overcome - selfcare and supportive environment.
+* Links to social media platforms: Raising awareness of current health issues and how these can be overcome - selfcare and supportive environment. In reality the links would link to the centres social media site.
 * “What are you looking for?” Picture gallery – Reassuring Images: Smiling people at the gym and in classes, therapy rooms.
 * Mobile- first approach to site design.
 
@@ -121,8 +121,6 @@ The images chosen were to reflect the text displayed above on the homepage as a 
 
 ### **Features**
 
-* **_Existing features that match current skill base._**
-
 The header/navbar and footer will be featured across all pages. They will not be fixed.\
 The pages will scroll on all devices.\
 A moving image gallery (carousel) welcoming the user to the site.\
@@ -132,7 +130,7 @@ An interactive class timetable. When a row is clicked it has a darker background
 
 * **_Features to be implemented with more advance skill base._**
 
-Send button to be functional.\
+Working Send button.\
 A booking system for classes.\
 Modal pop up for COVID alert and procedures.
 
@@ -155,22 +153,40 @@ Modal pop up for COVID alert and procedures.
 
 ### **Testing**
 
-Testing for all browsers was carried out throughout the development process through Devtools and also casting and inspecting to my own browsers.\  
-All HTML code was run through the [W3C Markup Validator](https://validator.w3.org/) and all CSS code was run through the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input).On my final test of all the code no errors were shown.\
-All CSS code was put though [Autoprefixer](https://autoprefixer.github.io/) adding -webkit- and -ms- throughout.
+Testing the responsiveness for all browsers was carried out throughout the development process using Devtools and also casting and inspecting on my own devices to hand.
 
-footer middle of page - credit: https://stackoverflow.com/a/45762747\
+#### **_Testing against user stories_**
 
-contact form kept sitting on the left on tab
+**_“I need the contact information to be at hand for when I need to get in touch.”_**\
+The phone link on the contact page works on all browsers.  The contact form and address details is also available.
 
-images taken too long to display - fixed - compressed images 
+**_“I want to feel and be a part of the centres community via social media platforms.”_**\
+All social link icon in the footer were tested to confirm they redirect to the appropriate social media sites in a seperate browser tab.
 
----
+**_"I want to visit the site and be able to book classes/therapies using my mobile phone for when I'm on the go._**\
+The contact form is available on mobile devices and the phone number link.
 
-### **Barriers and how overcame**
+**_“I need to know opening times and class timetables so I can work it into my busy lifestyle.”_**\
+Responsive class timetables are working on all browsers.
+
+**_"I want to be able to navigate through the site easily getting and efficiently."_**\
+The logo was tested to confirm it links to the homepage, index.html.\
+All the navbar list items on all browsers were tested on all of the pages to confirm they link to the correct pages.  The navbar menu button was tested also to confirm it works on mobile and tablet devices.
+
+#### **_Barriers and Solutions._**
+
+The footer displayed in the middle of the pages where there was not enough content to keep it pushed down.  This was solved by using flex ["that does not assume fixed heights or changing position of elements"](https://stackoverflow.com/a/45762747).
+
+During testing the responsiveness on the contact page, the transition from the desktop to a tablet was making the contact form display wide across the whole screen.  The random stretch of the form displayed terribly. The problem was solved by adding a media query to the CSS for medium sized browsers with margin declaration.
+
+On the desktop browser all the images on the site were taking very long to download or were not showing at all on the page just the 'alt' message of the picture.  CI mentor sent the link to the [image compressor](https://compressjpeg.com/) and explained that the pictures were too large resulting in the long loading time.  After compressing the images they download fine now when testing on all browsers.
 
 On the first test of my HTML code through the [W3C Markup Validator](https://validator.w3.org/) only one error was shown on all of the pages.  The error was on the contact page within the <form> element.  It would not accept 'label for="name"' as an id of name was not below within the input element. id="name" was added and the error was corrected.
+
+All HTML code was run through the [W3C Markup Validator](https://validator.w3.org/) and all CSS code was run through the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input).On my final test of all the code no errors were shown.\
 The error for CSS was 'float:center;' which is invalid and therefore removed without any disruption to the site.
+
+All CSS code was put though [Autoprefixer](https://autoprefixer.github.io/) adding -webkit- and -ms- throughout.
 
 ---
 
@@ -235,7 +251,7 @@ The original colours the design was based on were choson from [Design Wizard](ht
 
 The lotus flower logo image was taken from [clipart-library](http://clipart-library.com/clipart/500336.htm) a free picture art gallery.\
 Code Institute's gitpod template designed with the extentions that are needed for the project.\
-Code to prevent the footer from being displayed in the middle of page was sourced as an answer from the stackoverflow forum: https://stackoverflow.com/a/45762747.\
+Code to prevent the footer from being displayed in the middle of page was sourced as an answer from the stackoverflow forum: https://stackoverflow.com/a/45762747
 Code for changing the color of the bullet points was taken from [W3schools](https://www.w3schools.com/howto/howto_css_bullet_color.asp) and [geeks for geeks](https://www.geeksforgeeks.org).\
  Carousel snippet taken from [Bootstrap](https://getbootstrap.com/docs/4.0/components/carousel).\
 Navbar snippet taken from [Bootstrap](https://getbootstrap.com/docs/4.1/components/navbar/).\
