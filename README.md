@@ -112,8 +112,8 @@ However the colour scheme did change in the coding process as it was apparent th
 
 * **_Font_**
 
-The font used for all of the text was "Rubik" as it is clear to read and soft on the page due to it's rounded edges.  The line and word spacing used also contributed to the clarity of the text.
-The Headings for each page have a the light grey colour for their background and each heading wording is placded with in a span adding to the design effect on each page.
+The font used for all of the text was "Rubik" as it is clear to read and soft on the page due to it's rounded edges.  The line and word spacing used also contributed to the clarity of the text.\
+The Headings for each page have a the light grey background colour and each heading word is placed with in a span adding to a design effect of what would appear to be cut out words that have been placed on top of each page.\
 All of the pages text has a colour of rgba(0, 0, 0, 0.5) as the 0.5 transparency makes the black appear less harsh.
 
 * **_Imagery_**
@@ -156,7 +156,8 @@ Modal pop up for COVID alert and procedures.
 
 ### **Testing**
 
-Testing the responsiveness for all browsers was carried out throughout the development process using Devtools and also casting and inspecting on my own devices to hand.
+Testing the responsiveness for all browsers was carried out throughout the development process using Devtools and also casting and inspecting on my own devices to hand.\
+The site was also sent to a friend to test who fedback that all features are funtioning accordinly and the site is intuitive to use and responsive on all browser types.
 
 #### **_Testing against user stories_**
 
@@ -184,10 +185,15 @@ During testing the responsiveness on the contact page, the transition from the d
 
 On the desktop browser all the images on the site were taking very long to download or were not showing at all on the page just the 'alt' message of the picture.  CI mentor sent the link to the [image compressor](https://compressjpeg.com/) and explained that the pictures were too large resulting in the long loading time.  After compressing the images they download fine now when testing on all browsers.
 
-On the first test of my HTML code through the [W3C Markup Validator](https://validator.w3.org/) only one error was shown on all of the pages.  The error was on the contact page within the <form> element.  It would not accept 'label for="name"' as an id of name was not below within the input element. id="name" was added and the error was corrected.
+On the first test of my HTML code through the [W3C Markup Validator](https://validator.w3.org/) only one error was shown on all of the pages.  The error was on the contact page within the <form> element.  It would not accept 'label for="name"' as an id of name was not below within the input element. id="name" was added and the error was corrected.\
+On another test of html through the validator on the classes.html page an error came up where a p tag had been closed incorrectly.![html error](assets/images/html-error.png)
 
-All HTML code was run through the [W3C Markup Validator](https://validator.w3.org/) and all CSS code was run through the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input).On my final test of all the code no errors were shown.\
-The error for CSS was 'float:center;' which is invalid and therefore removed without any disruption to the site.
+All pages were retested with no errors present. ![html no errors](assets/images/html-no-errors.png)
+
+First attempt of running the CSS code through the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) showed an incorrect value for the property float: 'float:center'. This was therefore removed without any disruption to the site.\
+On my final test of all the code no errors were shown.
+![CSS no errors](assets/images/css-no-errors.png)
+
 
 All CSS code was put though [Autoprefixer](https://autoprefixer.github.io/) adding -webkit- and -ms- throughout.
 
@@ -196,7 +202,7 @@ All CSS code was put though [Autoprefixer](https://autoprefixer.github.io/) addi
 ### **Deployment** 
 
 
-#### **_Deployment to git hub pages._**
+#### **_Deployment to GitHub pages._**
 
 
 The project was devloped using Gitpod, an Integrated Development Environment (IDE).
@@ -219,13 +225,30 @@ The live link of the website is then found in GitHub pages part of settings.  "Y
 
 #### **_Clone, Install and Run Code_**
 
+Log into GitHub and select the repository.
+
 On the mainpage of the GitHub repository click the green "Code" button.
+
+Either select download zip at or,
 
 On the clone tab click on the clipboard icon and that copies the URL.
 
 The URL can then be pasted into an external IDE's directory to create a clone.
 
-Alternatively select "open with GitHub Desktop" and this will clone using GitHub.
+Into a preferred IDE type git clone, and then paste the copied URL:\
+$ git clone https ://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+
+Alternatively select "open with GitHub Desktop" and this will clone using GitHub desktop.
+
+
+#### **_Forking a repository in GitHub_**
+
+Making a copy of someones repository in GitHub in order to make changes without affecting the original repository is known as forking:
+
+Log into GitHub and select the repository.
+In the far right of the screen select the fork button.
+This automatically duplicates and save the repository.\
+Being the owner of the repository it does not allow to fork it.
 
 ---
 
@@ -237,6 +260,7 @@ All further reading taken place to consolidate and improve knowledge and underst
 and [Code Institute's](https://courses.codeinstitute.net) module content; All key fundamental elements which underpin the developing process as a whole.\
 [Youtube](https://youtube.com) was also used as a learning aid.
 
+[GitHub Docs](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/cloning-a-repository#cloning-a-repository-to-github-desktop) on how to clone a respository.\
 [W3C Markup Validator](https://validator.w3.org/) used to check all html code for syntax errors.\
 [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) used to check all CSS code for any errors in the code.\
 [Autoprefixer](https://autoprefixer.github.io/) used to check all css code producing -webkit- and -ms-.\
@@ -245,7 +269,7 @@ and [Code Institute's](https://courses.codeinstitute.net) module content; All ke
 Github [markdown cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) was used a point of reference when using Markdown language.\
 [PDF to PNG](https://pdf2png.com/) Conversion.\
 Anna Greaves [README Video](https://www.youtube.com/watch?v=7BteidgLAyM&feature=youtu.be).\
-[Image Compressor](https://compressjpeg.com/). Image optimiser to compress images to their most minimal size.
+[Image Compressor](https://compressjpeg.com/). Image optimiser to compress images to their most minimal size.\
 The original colours the design was based on were choson from [Design Wizard](https://www.designwizard.com/blog/design-trends/colour-combination).
 
 ---
