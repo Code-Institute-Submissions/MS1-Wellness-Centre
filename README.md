@@ -201,7 +201,7 @@ All CSS code was put though [Autoprefixer](https://autoprefixer.github.io/) addi
 
 On some mobile devices when the device is sideways the page doesnt fill the whole screen leaving a blank white area on the sides of the screen ![blank edges](assets/images/blank-edges.png)
 
-And on mobile devices and tablets the bullet point show the original black not orange colour. ![bullet points](assets/images/bullet-points.png)
+And on mobile devices and tablets the bullet point show the original black not orange colour. ![bullet points](assets/images/bullet-points.jpeg)
 
 ---
 
