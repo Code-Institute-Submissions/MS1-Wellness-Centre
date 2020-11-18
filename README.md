@@ -124,6 +124,7 @@ The images chosen were to reflect the text displayed above on the homepage as a 
 
 ### **Features**
 
+The site will be responsive on all devices.\
 The header/navbar and footer will be featured across all pages. They will not be fixed.\
 The pages will scroll on all devices.\
 A moving image gallery (carousel) welcoming the user to the site.\
@@ -194,8 +195,13 @@ First attempt of running the CSS code through the [W3C CSS Validator](https://ji
 On my final test of all the code no errors were shown.
 ![CSS no errors](assets/images/css-no-errors.png)
 
-
 All CSS code was put though [Autoprefixer](https://autoprefixer.github.io/) adding -webkit- and -ms- throughout.
+
+#### **_Known Bugs._**
+
+On some mobile devices when the device is sideways the page doesnt fill the whole screen leaving a blank white area on the sides of the screen ![blank edges](assets/images/blank-edges.png)
+
+And on mobile devices and tablets the bullet point show the original black not orange colour. ![bullet points](assets/images/bullet-points.png)
 
 ---
 
