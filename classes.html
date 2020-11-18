@@ -15,14 +15,18 @@
 
 <body>
 	<header>
+		<!-- Navbar -->
+		<!-- Navbar snippet taken from bootstrap:
+            https://getbootstrap.com/docs/4.1/components/navbar/  -->
 		<nav class="navbar navbar-expand-lg navbar-light navbar-custom">
-			<a class="navbar-brand" href="index.html" id="logo">
+			<!-- Logo -->
+			<a class="navbar-brand" href="index.html">
 				<img
+            id="logo"
             src="assets/images/lotuslogo.png"
             alt="Lotus Flower Logo"
-            width="150"
-            height="100"
         /></a>
+				<!-- Navbar button on smaller screens -->
 				<button
           class="navbar-toggler"
           type="button"
@@ -34,7 +38,7 @@
         >
           <span class="menu-btn">menu</span>
         </button>
-
+				<!-- Navigation list items -->
 				<div class="menu collapse navbar-collapse" id="navbarSupportedContent">
 					<ul class="navbar-nav ml-auto">
 						<li class="nav-item">
@@ -53,6 +57,8 @@
 				</div>
 		</nav>
 	</header>
+	<!-- Navbar Ends -->
+	<!-- Main Title -->
 	<section id="classes">
 		<h3>
 			<span>Class</span>
@@ -62,8 +68,9 @@
 		</h3>
 		<!--  Table snippet original source:
               https://getbootstrap.com/docs/4.1/content/tables/  -->
-
+		<!-- Class Timetable -->
 		<table class="table table-hover table-responsive-md">
+			<!-- Top row/head of the timetable -->
 			<thead>
 				<tr>
 					<th scope="col"></th>
@@ -76,7 +83,7 @@
 					<th scope="col">Sunday</th>
 				</tr>
 			</thead>
-
+			<!-- Side column and body of the timetable for each day -->
 			<tbody>
 				<tr>
 					<th scope="row">08:00</th>
@@ -131,19 +138,26 @@
 				</tr>
 			</tbody>
 		</table>
+		<!-- Timetable ends -->
+		<!-- Gym cost and opening/closing times -->
 		<p>Gym: 1hour - £3.00</p>
-		<p><strong>Opening Times: </strong> <br>Monday - Saturday: 7:00 - 21:00
+		<p id="times">Opening Times:</p>
+		<p>Monday - Saturday: 7:00 - 21:00
 			<br>Sunday: 8:00 - 12:00 </p>
 
 	</section>
+	<!-- Main section ends -->
 
 	<!--Social media icons sourced from fontawsome:
         https://fontawesome.com/ -->
 
+	<!-- Footer -->
 	<footer id="footer">
 		<div class="container-fluid">
+			<!-- Copyright -->
 			<p class="copyright">© RSM 2020</p>
 		</div>
+		<!-- Social Media Icons -->
 		<div class="social-networks">
 			<ul class="links">
 				<li class="list-inline-item">
@@ -161,10 +175,12 @@
 			</ul>
 		</div>
 	</footer>
-
+	<!-- Footer Ends -->
+	<!-- Scripts -->
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.min.js"></script>
+	<script src="carousel.js"></script>
 </body>
 
 </html>

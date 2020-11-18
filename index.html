@@ -15,16 +15,18 @@
 
 <body>
 	<header>
+		<!-- Navbar -->
 		<!-- Navbar snippet taken from bootstrap:
             https://getbootstrap.com/docs/4.1/components/navbar/  -->
 		<nav class="navbar navbar-expand-lg navbar-light navbar-custom">
-			<a class="navbar-brand" href="index.html" id="logo">
+			<!-- Logo -->
+			<a class="navbar-brand" href="index.html">
 				<img
+            id="logo"
             src="assets/images/lotuslogo.png"
             alt="Lotus Flower Logo"
-            width="150"
-            height="100"
         /></a>
+				<!-- Navbar button on smaller screens -->
 				<button
           class="navbar-toggler"
           type="button"
@@ -36,7 +38,7 @@
         >
           <span class="menu-btn">menu</span>
         </button>
-
+				<!-- Navigation list items -->
 				<div class="menu collapse navbar-collapse" id="navbarSupportedContent">
 					<ul class="navbar-nav ml-auto">
 						<li class="nav-item">
@@ -55,7 +57,8 @@
 				</div>
 		</nav>
 	</header>
-
+	<!-- Navbar Ends -->
+	<!-- Page Title -->
 	<section id="welcome">
 		<h1>
 			<span>Welcome</span>
@@ -63,12 +66,14 @@
 			<span> Central</span>
 			<span>Wellness</span>
 		</h1>
-
+		<!-- Second Header -->
 		<h3>Are you looking for...</h3>
 
 		<!--Carousel snippet taken from bootstrap:
             https://getbootstrap.com/docs/4.0/components/carousel/-->
 
+		<!-- Gallery -->
+		<!-- Visible slider indicators -->
 		<div id="gallery" class="carousel slide container" data-ride="carousel">
 			<ol class="carousel-indicators">
 				<li data-target="#gallery" data-slide-to="0" class="active"></li>
@@ -76,6 +81,7 @@
 				<li data-target="#gallery" data-slide-to="2"></li>
 				<li data-target="#gallery" data-slide-to="3"></li>
 			</ol>
+			<!-- Images with their titles -->
 			<div class="carousel-inner">
 				<div class="carousel-item active">
 					<h3><span>Relaxation?</span></h3>
@@ -111,7 +117,10 @@
           </div>
 							</div>
 						</div>
-						<h3>Then the Central Wellness family is here for you!</h3>
+						<!-- Gallery End -->
+						<!-- Main Section -->
+						<h3>Then the Central Wellness family is here for you!
+						</h3>
 						<p>
 							During these uncertain times we must look after each other more than
 							ever.
@@ -129,14 +138,16 @@
 							<span>"</span>
 						</h3>
 	</section>
-
+	<!-- Main Section Ends -->
 	<!--Social media icons sourced from fontawsome:
         https://fontawesome.com/ -->
-
+	<!-- Footer -->
 	<footer id="footer">
 		<div class="container-fluid">
+			<!-- Copyright -->
 			<p class="copyright">© RSM 2020</p>
 		</div>
+		<!-- Social Media Icons -->
 		<div class="social-networks">
 			<ul class="links">
 				<li class="list-inline-item">
@@ -154,7 +165,8 @@
 			</ul>
 		</div>
 	</footer>
-
+	<!-- Footer Ends -->
+	<!-- Scripts -->
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.min.js"></script>

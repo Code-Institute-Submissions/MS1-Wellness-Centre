@@ -15,14 +15,18 @@
 
 <body>
 	<header>
+		<!-- Navbar -->
+		<!-- Navbar snippet taken from bootstrap:
+            https://getbootstrap.com/docs/4.1/components/navbar/  -->
 		<nav class="navbar navbar-expand-lg navbar-light navbar-custom">
-			<a class="navbar-brand" href="index.html" id="logo">
+			<!-- Logo -->
+			<a class="navbar-brand" href="index.html">
 				<img
+            id="logo"
             src="assets/images/lotuslogo.png"
             alt="Lotus Flower Logo"
-            width="150"
-            height="100"
         /></a>
+				<!-- Navbar button on smaller screens -->
 				<button
           class="navbar-toggler"
           type="button"
@@ -34,7 +38,7 @@
         >
           <span class="menu-btn">menu</span>
         </button>
-
+				<!-- Navigation list items -->
 				<div class="menu collapse navbar-collapse" id="navbarSupportedContent">
 					<ul class="navbar-nav ml-auto">
 						<li class="nav-item">
@@ -53,17 +57,19 @@
 				</div>
 		</nav>
 	</header>
-
+	<!-- Navbar Ends -->
+	<!-- Page Title -->
 	<section id="contact">
 		<h3><span> Contact</span> <span>Us</span></h3>
 		<div class="container-fluid" id="contact-us">
 			<div class="row">
 				<div class="col-sm-12 col-md-6 align-items-center">
 
-                <!-- Form snippet source bootstrap:
+					<!-- Form snippet source bootstrap:
                      https://getbootstrap.com/docs/4.0/components/forms/ -->
-
+					<!-- Contact Form -->
 					<form class="form">
+						<!-- First name/surname boxes -->
 						<label for="name">Name</label>
 						<div class="form-row">
 							<div class="col">
@@ -82,7 +88,7 @@
                   />
                 </div>
 								</div>
-
+								<!-- Email address box-->
 								<div class="form-group">
 									<label for="email">Email Address</label>
 									<input
@@ -92,7 +98,7 @@
                   placeholder="name@example.com"
                 />
               </div>
-
+									<!-- Reson for contact dropdown -->
 									<div class="form-group">
 										<select class="form-control" id="reason">
                   <option>Please Select Reason For Contact</option>
@@ -103,6 +109,7 @@
                   <option>Other</option>
                 </select>
 									</div>
+									<!-- User message input box -->
 									<div class="overflow-auto">
 										<textarea
                   class="form-control"
@@ -111,26 +118,30 @@
                   placeholder="Type Message Here"
                 ></textarea>
 									</div>
+									<!-- Send button -->
 									<div class="button">
 										<button type="button" class="btn btn-light">Send</button>
 									</div>
 					</form>
 				</div>
 
-<!-- #contact-details icons sourced from fontawsome:
+				<!-- #contact-details icons sourced from fontawsome:
     https://fontawesome.com/
     #contact-details fake phone number sourced from:
     https://fakenumber.org/phone/01632-960683  -->
 
+				<!-- Contact details -->
 				<div class="col-sm-12 col-md-6 align-items-center">
 					<div id="contact-details">
+						<!-- Phone number -->
 						<i class="fas fa-phone-square-alt"></i>
 						<p><a href="tel:01632960683">01632 960683</a></p>
 						<i class="fas fa-map-marker-alt"></i>
+						<!-- Address -->
 						<p>
-							100 Health Street,<br />Wellbeing Land,<br />Positive-shire,<br />HE41
-                THY
+							100 Health Street,<br />Wellbeing Land,<br />Positive-shire,<br />HE41 THY
               </p>
+							<!-- Opening/Closing times -->
 							<i class="fas fa-clock"></i>
 							<p id="opening">Opening Times: <br>Monday - Saturday: <br>7:00 - 21:00
 								<br>Sunday: <br> 8:00 - 12:00 </p>
@@ -139,14 +150,18 @@
 			</div>
 		</div>
 	</section>
+	<!-- Main section ends -->
 
 	<!--Social media icons sourced from fontawsome:
         https://fontawesome.com/ -->
 
+	<!-- Footer -->
 	<footer id="footer">
 		<div class="container-fluid">
+			<!-- Copyright -->
 			<p class="copyright">© RSM 2020</p>
 		</div>
+		<!-- Social Media Icons -->
 		<div class="social-networks">
 			<ul class="links">
 				<li class="list-inline-item">
@@ -164,10 +179,12 @@
 			</ul>
 		</div>
 	</footer>
-
+	<!-- Footer Ends -->
+	<!-- Scripts -->
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.min.js"></script>
+	<script src="carousel.js"></script>
 </body>
 
 </html>
